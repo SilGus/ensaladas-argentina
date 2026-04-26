@@ -88,7 +88,7 @@
     }
     .sticky-bar a {
       display: block; color: var(--white); font-family: 'Nunito', sans-serif;
-      font-size: 17px; font-weight: 800; text-align: center;
+      font-size: 20px; font-weight: 800; text-align: center;
     }
     @media(max-width:768px) { .sticky-bar { display: block; } body { padding-bottom: 68px; } }
 
@@ -184,16 +184,16 @@
       background: var(--cream); border: 2px dashed var(--green-mid);
       border-radius: 13px; padding: 18px;
     }
-    .ia-label { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--green-mid); margin-bottom: 7px; }
-    .ia-text { font-size: 15px; font-weight: 600; color: var(--text-dark); font-style: italic; }
+    .ia-label { font-size: 16px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--green-mid); margin-bottom: 7px; }
+    .ia-text { font-size: 18px; font-weight: 600; color: var(--text-dark); font-style: italic; }
     .ia-arrow { text-align: center; font-size: 30px; padding: 14px 0; animation: bounce 1.8s ease-in-out infinite; }
     @keyframes bounce { 0%,100% { transform: translateY(0); } 50% { transform: translateY(6px); } }
     .ia-output { background: var(--green-deep); border-radius: 13px; padding: 20px; }
-    .ia-output-label { font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: rgba(255,255,255,.6); margin-bottom: 14px; }
+    .ia-output-label { font-size: 16px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: rgba(255,255,255,.6); margin-bottom: 14px; }
     .ia-list { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
-    .ia-list li { display: flex; align-items: center; gap: 7px; font-size: 14px; font-weight: 600; color: var(--white); }
+    .ia-list li { display: flex; align-items: center; gap: 7px; font-size: 18px; font-weight: 600; color: var(--white); }
     .ia-list li::before { content: "✓"; color: #7FD67F; font-weight: 900; }
-    .ia-footer { text-align: center; margin-top: 18px; font-size: 14px; font-weight: 700; color: var(--text-mid); line-height: 1.5; }
+    .ia-footer { text-align: center; margin-top: 18px; font-size: 18px; font-weight: 700; color: var(--text-mid); line-height: 1.5; }
     .ia-footer strong { color: var(--green-deep); }
 
     /* RECIPES */
@@ -206,8 +206,8 @@
     .recipe-thumb-4 { background: linear-gradient(135deg, #FFF3CC, #FFE680); }
     .recipe-thumb-5 { background: linear-gradient(135deg, #FFD6D6, #FFC2C2); }
     .recipe-card-body { padding: 13px; }
-    .recipe-card-name { font-size: 14px; font-weight: 800; color: var(--text-dark); margin-bottom: 3px; line-height: 1.3; }
-    .recipe-card-tag { font-size: 11px; font-weight: 700; color: var(--green-mid); text-transform: uppercase; letter-spacing: .04em; }
+    .recipe-card-name { font-size: 18px; font-weight: 800; color: var(--text-dark); margin-bottom: 3px; line-height: 1.3; }
+    .recipe-card-tag { font-size: 16px; font-weight: 700; color: var(--green-mid); text-transform: uppercase; letter-spacing: .04em; }
     .recipe-total-box {
       background: var(--green-deep); color: var(--white); text-align: center;
       border-radius: 14px; padding: 20px; margin: 4px 0 28px;
@@ -368,7 +368,7 @@
     .deliverable-img { width: 100%; height: 220px; object-fit: cover; border-radius: 10px; flex-shrink: 0; }
     .bonus-img { width: 100%; height: 150px; object-fit: cover; object-position: center top; border-radius: 10px; margin: 14px 0 16px; display: block; }
     .sello-img { width: 110px; height: auto; margin: 0 auto 18px; display: block; }
-    .mp-logo { height: 42px; width: auto; vertical-align: middle; margin-right: 4px; }
+    .mp-logo { height: 470px; width: auto; vertical-align: middle; margin-right: 4px; }
   </style>
   <link rel="preload" as="image" href="assets/img/frasco-sinfondo.webp" fetchpriority="high">
 </head>
@@ -535,7 +535,7 @@
     <h2 class="headline" style="font-size: clamp(22px,5.5vw,34px); margin-bottom: 8px;">
       Tu lista del súper se genera <em class="headline-italic">sola.</em>
     </h2>
-    <p style="font-size:15px; color:var(--text-mid); margin-bottom:0; line-height:1.65;">
+    <p style="font-size:18px; color:var(--text-mid); margin-bottom:0; line-height:1.65;">
       No más noches calculando cantidades, comprando de más ni tirando comida porque compraste mal.
     </p>
 
@@ -584,7 +584,7 @@
     <h2 class="headline" style="font-size: clamp(24px,6vw,36px); margin-bottom:8px;">
       100 combinaciones para que comer sano no se vuelva aburrido.
     </h2>
-    <p style="font-size:15px; color:var(--text-mid); margin-bottom:24px; line-height:1.65;">
+    <p style="font-size:18px; color:var(--text-mid); margin-bottom:24px; line-height:1.65;">
       No la típica ensalada de lechuga y tomate. Variedad real, sabor de verdad y frescura toda la semana.
     </p>
 
@@ -872,16 +872,16 @@
   <div class="container">
     <span class="tag">Todo lo que recibís</span>
     <h2 class="headline" style="font-size: clamp(22px,5.5vw,34px); margin-bottom: 8px;">
-      Esto es todo lo que entra hoy al comprar.
+      Esto es todo lo que te llevas hoy al comprar.
     </h2>
-    <p style="font-size:15px; color:var(--text-mid); margin-bottom:28px; line-height:1.65;">
+    <p style="font-size:18px; color:var(--text-mid); margin-bottom:28px; line-height:1.65;">
       No es solo un recetario. Es un sistema completo para resolver tu semana desde la heladera.
     </p>
 
     <div class="deliverable fade-up">
       <img src="assets/img/10.webp" alt="Ensaladas en Frasco — El libro de recetas" class="deliverable-img" width="100" height="72" loading="lazy">
       <div class="deliverable-body">
-        <h3>Ensaladas en Frasco — El E-book de 100 recetas</h3>
+        <h3>Ensaladas en Frasco — El E-book con 100 recetas</h3>
         <p>100 combinaciones estratégicas organizadas por objetivo: ligeras, proteicas, vegetarianas, energéticas y gourmet. Diseñadas para no aburrirte nunca y para que cada frasco llegue al viernes igual que el domingo.</p>
         <p class="deliverable-val">Valor: $22.900 ARS</p>
       </div>
