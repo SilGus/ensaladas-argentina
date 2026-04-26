@@ -14,7 +14,7 @@
       --cream-dark: #F0EBE1;
       --green-deep: #2A5C2A;
       --green-mid: #3D7A3D;
-      --green-btn: #2D6B2D;
+      --green-btn: #369636;
       --green-btn-hover: #1E4D1E;
       --green-light: #EBF4EB;
       --gold: #C8952A;
@@ -57,8 +57,9 @@
       color: var(--green-deep); background: var(--green-light);
       padding: 5px 13px; border-radius: 20px; margin-bottom: 14px;
     }
-    .tag-gold { color: var(--gold); background: var(--gold-light); }
+    .tag-gold { color: var(--gold); background: var(--gold-light); align-items: center; }
     .tag-white { color: rgba(255,255,255,.9); background: rgba(255,255,255,.15); }
+    .naranja {color:var(--gold); font-size: 23px; text-align: center;}
 
     /* BUTTONS */
     .btn {
@@ -72,12 +73,12 @@
     }
     .btn:hover { background: var(--green-btn-hover); transform: translateY(-2px); box-shadow: 0 8px 28px rgba(42,92,42,.48); }
     .btn:active { transform: translateY(0); }
-    .btn-lg { font-size: 20px; padding: 22px 24px; border-radius: 16px; animation: pulse-btn 2.5s ease-in-out infinite; }
+    .btn-lg { font-size: 24px; padding: 22px 24px; border-radius: 16px; animation: pulse-btn 2.5s ease-in-out infinite; }
     @keyframes pulse-btn {
       0%,100% { box-shadow: 0 4px 22px rgba(42,92,42,.38); }
       50% { box-shadow: 0 10px 36px rgba(42,92,42,.58); }
     }
-    .btn-sub { font-size: 12px; font-weight: 600; color: var(--text-light); text-align: center; margin-top: 11px; }
+    .btn-sub { font-size: 16px; font-weight: 600; color: var(--text-light); text-align: center; margin-top: 11px; }
 
     /* STICKY BAR */
     .sticky-bar {
@@ -102,26 +103,26 @@
     /* HERO */
     .hero { background: var(--cream); padding: 44px 0 40px; }
     .hero-eyebrow {
-      font-size: 12px; font-weight: 800; letter-spacing: .15em;
-      text-transform: uppercase; color: var(--green-mid); margin-bottom: 18px;
+      font-size: 18px; font-weight: 800; letter-spacing: .15em;
+      text-transform: uppercase; color: var(--green-mid); margin-bottom: 18px; text-align: center;
     }
-    .hero-headline { font-size: clamp(26px, 7vw, 44px); color: var(--text-dark); margin-bottom: 18px; }
+    .hero-headline { font-size: clamp(32px, 7vw, 44px); color: var(--text-dark); margin-bottom: 22px; }
     .hero-headline em { color: var(--green-deep); font-style: italic; }
     .hero-sub {
-      font-size: 16px; font-weight: 500; color: var(--text-mid);
+      font-size: 22px; font-weight: 500; color: var(--text-mid);
       line-height: 1.7; margin-bottom: 24px;
     }
     .hero-sub strong { color: var(--text-dark); font-weight: 800; }
     .hero-chips { display: flex; flex-wrap: wrap; gap: 9px; margin-bottom: 28px; justify-content: center; }
     .chip {
       background: var(--green-deep); color: var(--white);
-      font-size: 13px; font-weight: 700; padding: 7px 14px; border-radius: 30px;
+      font-size: 18px; font-weight: 700; padding: 7px 16px; border-radius: 30px; text-align: center;
     }
     .chip-gold { background: var(--gold); }
     .hero-cta-wrap { max-width: 400px; margin: 0 auto 18px; }
     .hero-trust {
       display: flex; flex-wrap: wrap; gap: 14px;
-      justify-content: center; font-size: 12px; font-weight: 600; color: var(--text-light);
+      justify-content: center; font-size: 16px; font-weight: 600; color: var(--text-light);
     }
     .hero-trust-item { display: flex; align-items: center; gap: 5px; }
     .hero-jar-visual {
@@ -136,7 +137,7 @@
     /* SOCIAL PROOF BAR */
     .sp-bar { background: var(--green-deep); padding: 16px 0; }
     .sp-bar-inner { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px 20px; }
-    .sp-item { color: var(--white); font-size: 13px; font-weight: 700; display: flex; align-items: center; gap: 6px; }
+    .sp-item { color: var(--white); font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 6px; }
     .sp-sep { color: rgba(255,255,255,.3); }
 
     /* BRIDGE */
@@ -148,8 +149,8 @@
     .problem-list { list-style: none; display: flex; flex-direction: column; gap: 12px; margin: 24px 0 28px; }
     .problem-list li {
       display: flex; align-items: flex-start; gap: 13px;
-      background: var(--white); border-radius: 13px; padding: 15px 16px;
-      font-size: 15px; font-weight: 600; color: var(--text-dark);
+      background: var(--white); border-radius: 13px; padding: 20px 16px;
+      font-size: 18px; font-weight: 600; color: var(--text-dark);
       box-shadow: 0 2px 10px rgba(0,0,0,.06); border-left: 5px solid #E74C3C;
     }
     .problem-list li .ico { font-size: 20px; flex-shrink: 0; }
@@ -169,8 +170,8 @@
       align-items: center; justify-content: center; flex-shrink: 0;
       font-family: 'Playfair Display', serif;
     }
-    .step-body h3 { font-size: 17px; font-weight: 800; margin-bottom: 4px; }
-    .step-body p { font-size: 14px; color: var(--text-mid); line-height: 1.55; }
+    .step-body h3 { font-size: 20px; font-weight: 800; margin-bottom: 4px; }
+    .step-body p { font-size: 18px; color: var(--text-mid); line-height: 1.55; }
 
     /* IA DEMO */
     .ia-card {
@@ -249,12 +250,12 @@
     /* DELIVERABLES */
     .deliverable {
       background: var(--white); border-radius: 16px; padding: 20px;
-      margin-bottom: 13px; display: flex; gap: 16px; align-items: flex-start;
+      margin-bottom: 13px; display: block; gap: 16px; align-items: flex-start;
       box-shadow: 0 3px 14px rgba(0,0,0,.07); border-left: 5px solid var(--green-deep);
     }
-    .deliverable-ico { font-size: 34px; flex-shrink: 0; }
-    .deliverable-body h3 { font-size: 16px; font-weight: 800; margin-bottom: 4px; }
-    .deliverable-body p { font-size: 13px; color: var(--text-mid); line-height: 1.55; }
+    .deliverable-ico { font-size: 34px; flex-shrink: 0; margin-top: 16px; margin-bottom: 22px; }
+    .deliverable-body h3 { font-size: 22px; line-height: 1.6rem; font-weight: 800; margin: 16px; }
+    .deliverable-body p { font-size: 18px; color: var(--text-mid); line-height: 1.55; }
     .deliverable-val { font-size: 11px; font-weight: 800; color: var(--green-mid); margin-top: 7px; text-transform: uppercase; letter-spacing: .05em; }
 
     /* BONUSES */
@@ -289,18 +290,18 @@
       background: var(--green-deep); border-radius: 22px; padding: 32px 26px;
       text-align: center; margin-bottom: 18px;
     }
-    .price-eyebrow { font-size: 11px; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; color: rgba(255,255,255,.65); margin-bottom: 6px; }
+    .price-eyebrow { font-size: 18px; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; color: rgb(255 255 255); margin-bottom: 6px; }
     .price-old { font-size: 20px; font-weight: 700; color: rgba(255,255,255,.45); text-decoration: line-through; margin-bottom: 4px; }
     .price-main { font-family: 'Playfair Display', serif; font-size: 62px; font-weight: 900; color: var(--white); line-height: 1; }
     .price-ars { font-size: 22px; font-weight: 700; vertical-align: super; line-height: 1; }
-    .price-note { font-size: 13px; font-weight: 600; color: rgba(255,255,255,.7); margin: 8px 0 20px; }
+    .price-note { font-size: 16px; font-weight: 600; color: rgba(255,255,255,1); margin: 18px 0 20px; }
     .price-off-badge {
       display: inline-block; background: var(--gold); color: var(--white);
       font-size: 15px; font-weight: 800; padding: 7px 18px; border-radius: 20px; margin-bottom: 22px;
     }
     .price-urgency {
       background: rgba(255,255,255,.1); border-radius: 12px; padding: 13px 18px;
-      font-size: 13px; font-weight: 700; color: rgba(255,255,255,.9);
+      font-size: 16px; font-weight: 700; color: rgba(255,255,255,.9);
       margin-bottom: 22px; display: flex; align-items: center; justify-content: center; gap: 9px;
     }
     .urgency-dot { width: 8px; height: 8px; border-radius: 50%; background: #FF6B6B; animation: pulse-wa 1.5s ease-in-out infinite; }
@@ -324,10 +325,10 @@
       display: flex; justify-content: space-between; align-items: center;
       gap: 13px; cursor: pointer; text-align: left;
     }
-    .faq-q-txt { font-size: 15px; font-weight: 700; color: var(--text-dark); line-height: 1.4; }
+    .faq-q-txt { font-size: 18px; font-weight: 700; color: var(--text-dark); line-height: 1.4; }
     .faq-icon { font-size: 20px; color: var(--green-deep); transition: transform .3s; flex-shrink: 0; }
     .faq-item.open .faq-icon { transform: rotate(180deg); }
-    .faq-a { display: none; padding: 0 0 18px; font-size: 14px; color: var(--text-mid); line-height: 1.7; }
+    .faq-a { display: none; padding: 0 0 18px; font-size: 18px; color: var(--text-mid); line-height: 1.7; }
     .faq-item.open .faq-a { display: block; }
     .faq-a strong { color: var(--text-dark); font-weight: 700; }
     .faq-highlight {
@@ -345,7 +346,7 @@
     .closing-a .closing-label { color: var(--red-soft); }
     .closing-b .closing-label { color: var(--green-deep); }
     .closing-card ul { list-style: none; display: flex; flex-direction: column; gap: 9px; }
-    .closing-card li { font-size: 13px; font-weight: 600; color: var(--text-mid); line-height: 1.4; padding-left: 20px; position: relative; }
+    .closing-card li { font-size: 16px; font-weight: 600; color: var(--text-mid); line-height: 1.4; padding-left: 20px; position: relative; }
     .closing-a li::before { content: "✗"; position: absolute; left: 0; color: var(--red-soft); font-weight: 800; }
     .closing-b li::before { content: "✓"; position: absolute; left: 0; color: var(--green-deep); font-weight: 800; }
 
@@ -364,10 +365,10 @@
     .problema-img { width: 100%; max-width: 320px; border-radius: 18px; display: block; margin: 0 auto 28px; box-shadow: 0 6px 24px rgba(0,0,0,.12); }
     .recipe-thumb { height: 130px; overflow: hidden; background: var(--cream-dark); }
     .recipe-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-    .deliverable-img { width: 100px; height: 72px; object-fit: cover; border-radius: 10px; flex-shrink: 0; }
+    .deliverable-img { width: 100%; height: 220px; object-fit: cover; border-radius: 10px; flex-shrink: 0; }
     .bonus-img { width: 100%; height: 150px; object-fit: cover; object-position: center top; border-radius: 10px; margin: 14px 0 16px; display: block; }
     .sello-img { width: 110px; height: auto; margin: 0 auto 18px; display: block; }
-    .mp-logo { height: 22px; width: auto; vertical-align: middle; margin-right: 4px; }
+    .mp-logo { height: 42px; width: auto; vertical-align: middle; margin-right: 4px; }
   </style>
   <link rel="preload" as="image" href="assets/img/frasco-sinfondo.webp" fetchpriority="high">
 </head>
@@ -381,7 +382,7 @@
 <!-- HERO -->
 <section class="hero">
   <div class="container">
-    <p class="hero-eyebrow">Método de Ensaladas en Frasco + Lista del Súper con IA</p>
+    <p class="hero-eyebrow">100 Recetas para el Método de Ensaladas en Frasco + Lista del Súper con IA</p>
 
     <h1 class="headline hero-headline" style="text-align:center;">
       Mi marido bajó 6 kilos.<br>
@@ -390,14 +391,14 @@
     </h1>
 
     <p class="hero-sub" style="text-align:center;">
-      Con <strong>30 minutos cada domingo</strong>, tenés la semana entera resuelta.
+      Con <strong>60 minutos cada domingo</strong>, tenés la semana entera resuelta.
       Dejás de gastar <strong>$200.000 al mes en delivery</strong> y comés
       mejor que en cualquier restaurante por <strong>$3.600 por almuerzo.</strong>
     </p>
 
     <div class="hero-chips">
       <span class="chip">💸 $200.000 / mes en ahorro</span>
-      <span class="chip">⏱️ 30 min el domingo</span>
+      <span class="chip">⏱️ 60 min el domingo</span>
       <span class="chip">🥗 $3.600 por almuerzo</span>
       <span class="chip chip-gold">🤖 IA que arma tu lista</span>
     </div>
@@ -529,6 +530,7 @@
 <!-- IA DEMO -->
 <section class="section">
   <div class="container">
+    <span class="tag naranja">BONO GRATUITO</span>
     <span class="tag">La parte que más tiempo te ahorra</span>
     <h2 class="headline" style="font-size: clamp(22px,5.5vw,34px); margin-bottom: 8px;">
       Tu lista del súper se genera <em class="headline-italic">sola.</em>
@@ -879,7 +881,7 @@
     <div class="deliverable fade-up">
       <img src="assets/img/10.webp" alt="Ensaladas en Frasco — El libro de recetas" class="deliverable-img" width="100" height="72" loading="lazy">
       <div class="deliverable-body">
-        <h3>Ensaladas en Frasco — El libro de recetas</h3>
+        <h3>Ensaladas en Frasco — El E-book de 100 recetas</h3>
         <p>100 combinaciones estratégicas organizadas por objetivo: ligeras, proteicas, vegetarianas, energéticas y gourmet. Diseñadas para no aburrirte nunca y para que cada frasco llegue al viernes igual que el domingo.</p>
         <p class="deliverable-val">Valor: $22.900 ARS</p>
       </div>
@@ -888,7 +890,7 @@
     <div class="deliverable fade-up">
       <img src="assets/img/11.webp" alt="Protocolo de Capas y Conservación" class="deliverable-img" width="100" height="72" loading="lazy">
       <div class="deliverable-body">
-        <h3>Protocolo de Capas y Conservación</h3>
+        <h3>E-book Protocolo de Capas y Conservación</h3>
         <p>La guía paso a paso para armar tus frascos correctamente. El orden exacto de cada ingrediente para que la lechuga no se marchite, la palta no se oxide y el aderezo no ablande nada. La ciencia detrás de los 7 días frescos.</p>
         <p class="deliverable-val">Valor: $3.500 ARS</p>
       </div>
@@ -897,7 +899,7 @@
     <div class="deliverable fade-up">
       <img src="assets/img/12.webp" alt="Alquimia de Aderezos Saludables" class="deliverable-img" width="100" height="72" loading="lazy">
       <div class="deliverable-body">
-        <h3>Alquimia de Aderezos Saludables</h3>
+        <h3>E-book Alquimia de Aderezos Saludables</h3>
         <p>Las fórmulas de los aderezos que hacen que tus compañeras te pidan la receta y tu marido deje el delivery. Salsas caseras que transforman ingredientes simples en platos que parecen de restaurante.</p>
         <p class="deliverable-val">Valor: $6.500 ARS</p>
       </div>
@@ -985,7 +987,7 @@
       <p class="price-eyebrow">Precio de lanzamiento — hoy</p>
       <p class="price-old">$60.000 ARS</p>
       <p class="price-main"><span class="price-ars">$</span>14.990</p>
-      <p class="price-note">Un único pago · Acceso inmediato</p>
+      <p class="price-note">PESOS ARGENTINOS en Un único pago · Acceso inmediato</p>
       <div class="price-off-badge">🔥 75% de descuento</div>
       <div class="price-urgency">
         <span class="urgency-dot"></span>
@@ -1021,7 +1023,7 @@
 <section class="section">
   <div class="container">
     <span class="tag">Preguntas frecuentes</span>
-    <h2 class="headline" style="font-size: clamp(22px,5vw,32px); margin-bottom: 28px;">
+    <h2 class="headline" style="font-size: clamp(32px,5vw,32px); margin-bottom: 28px;">
       Lo que probablemente querés saber antes de comprar.
     </h2>
 
