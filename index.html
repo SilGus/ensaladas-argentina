@@ -8,7 +8,27 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <style>
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1425031875445669');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1425031875445669&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  style>
     :root {
       --cream: #FAF7F2;
       --cream-dark: #F0EBE1;
@@ -292,7 +312,7 @@
     }
     .price-eyebrow { font-size: 18px; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; color: rgb(255 255 255); margin-bottom: 6px; }
     .price-old { font-size: 20px; font-weight: 700; color: rgba(255,255,255,.45); text-decoration: line-through; margin-bottom: 4px; }
-    .price-main { font-family: 'Playfair Display', serif; font-size: 62px; font-weight: 900; color: var(--white); line-height: 1; }
+    .price-main { font-family: 'Playfair Display', serif; font-size: 62px; font-weight: 900; color: #f7ff00; line-height: 1; }
     .price-ars { font-size: 22px; font-weight: 700; vertical-align: super; line-height: 1; }
     .price-note { font-size: 16px; font-weight: 600; color: rgba(255,255,255,1); margin: 18px 0 20px; }
     .price-off-badge {
@@ -305,7 +325,7 @@
       margin-bottom: 22px; display: flex; align-items: center; justify-content: center; gap: 9px;
     }
     .urgency-dot { width: 8px; height: 8px; border-radius: 50%; background: #FF6B6B; animation: pulse-wa 1.5s ease-in-out infinite; }
-    .mp-note { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--text-light); margin-top: 13px; }
+    .mp-note { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 16px; font-weight: 600; color: var(--text-light); margin-top: 13px; }
 
     /* GUARANTEE */
     .guarantee-box {
@@ -315,7 +335,7 @@
     }
     .guarantee-box .ico { font-size: 60px; margin-bottom: 16px; }
     .guarantee-box h3 { font-size: 22px; font-weight: 800; margin-bottom: 12px; }
-    .guarantee-box p { font-size: 15px; color: var(--text-mid); line-height: 1.7; }
+    .guarantee-box p { font-size: 18px; color: var(--text-mid); line-height: 1.7; }
     .guarantee-box strong { color: var(--text-dark); font-weight: 800; }
 
     /* FAQ */
