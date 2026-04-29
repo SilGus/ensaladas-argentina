@@ -1,1239 +1,1785 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ensaladas en Frasco — El método que resuelve tu semana desde la heladera</title>
-  <meta name="description" content="100 recetas + Protocolo de Capas + IA que arma tu lista del súper. Resolvé tu semana en 30 minutos el domingo.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <!-- Meta Pixel Code -->
-  <script>
-    !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return; n = f.fbq = function () {
-        n.callMethod ?
-          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-      };
-      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-      n.queue = []; t = b.createElement(e); t.async = !0;
-      t.src = v; s = b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t, s)
-    }(window, document, 'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '1425031875445669');
-    fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1425031875445669&ev=PageView&noscript=1" /></noscript>
-  <!-- End Meta Pixel Code -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Método de Ensaladas en Frasco — 100 recetas, aderezos caseros y el Protocolo de Capas. Resolvé tu semana en 60 minutos cada domingo.">
+<meta property="og:title" content="Ensaladas en Frasco — Resolvé tu semana en 60 minutos">
+<meta property="og:description" content="100 recetas, aderezos caseros y el Protocolo de Capas. Más de 350 mujeres argentinas ya cambiaron su semana.">
+<meta property="og:type" content="website">
+<title>Ensaladas en Frasco — Resolvé tu semana desde la heladera</title>
 
-  <style>
-    :root {
-      --cream: #FAF7F2;
-      --cream-dark: #F0EBE1;
-      --green-deep: #2A5C2A;
-      --green-mid: #3D7A3D;
-      --green-btn: #369636;
-      --green-btn-hover: #1E4D1E;
-      --green-light: #EBF4EB;
-      --gold: #C8952A;
-      --gold-light: #FDF3DC;
-      --text-dark: #1C1C1C;
-      --text-mid: #4A4A4A;
-      --text-light: #7A7A7A;
-      --white: #FFFFFF;
-      --red-soft: #C0392B;
-      --wa-bg: #E5DDD5;
-      --wa-green: #DCF8C6;
-    }
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: 'Nunito', sans-serif;
-      background: var(--cream);
-      color: var(--text-dark);
-      line-height: 1.6;
-      overflow-x: hidden;
-    }
-    img { max-width: 100%; height: auto; display: block; }
-    a { color: inherit; text-decoration: none; }
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1425031875445669');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1425031875445669&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 
-    /* LAYOUT */
-    .container { max-width: 660px; margin: 0 auto; padding: 0 22px; }
-    .section { padding: 56px 0; }
-    .section-alt { background: var(--cream-dark); }
-    .section-dark { background: var(--green-deep); color: var(--white); }
-    .section-gold { background: var(--gold-light); }
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    /* TYPOGRAPHY */
-    .headline { font-family: 'Playfair Display', serif; font-weight: 900; line-height: 1.15; }
-    .headline-italic { font-family: 'Playfair Display', serif; font-style: italic; font-weight: 700; line-height: 1.2; }
+<style>
+:root {
+  --green-deep: #2d4a3e;
+  --green-mid: #438803;
+  --green-soft: #e8f0e9;
+  --cream: #faf6ee;
+  --cream-warm: #f4ebd8;
+  --terracotta: #c8593a;
+  --terracotta-soft: #e8a892;
+  --mustard: #d4a843;
+  --ink: #1f2922;
+  --ink-soft: #4a544c;
+  --line: #d8d2c2;
+  --shadow-sm: 0 2px 8px rgba(31, 41, 34, 0.06);
+  --shadow-md: 0 8px 24px rgba(31, 41, 34, 0.08);
+  --shadow-lg: 0 20px 48px rgba(31, 41, 34, 0.12);
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-xl: 32px;
+  
+}
 
-    /* TAG */
-    .tag {
-      display: inline-block; font-size: 18px; font-weight: 800;
-      letter-spacing: .12em; text-transform: uppercase;
-      color: var(--green-deep); background: var(--green-light);
-      padding: 5px 13px; border-radius: 20px; margin-bottom: 14px;
-    }
-    .tag-gold { color: var(--gold); background: var(--gold-light); align-items: center; }
-    .tag-white { color: rgba(255,255,255,.9); background: rgba(255,255,255,.15); }
-    .naranja {color:var(--gold); font-size: 23px; text-align: center;}
+* { margin: 0; padding: 0; box-sizing: border-box; }
 
-    /* BUTTONS */
-    .btn {
-      display: block; width: 100%; padding: 19px 24px;
-      background: var(--green-btn); color: var(--white);
-      font-family: 'Nunito', sans-serif; font-size: 18px; font-weight: 800;
-      text-align: center; border-radius: 14px; border: none; cursor: pointer;
-      transition: background .2s, transform .15s, box-shadow .2s;
-      letter-spacing: .02em; text-decoration: none;
-      box-shadow: 0 4px 22px rgba(42,92,42,.38);
-    }
-    .btn:hover { background: var(--green-btn-hover); transform: translateY(-2px); box-shadow: 0 8px 28px rgba(42,92,42,.48); }
-    .btn:active { transform: translateY(0); }
-    .btn-lg { font-size: 24px; padding: 22px 24px; border-radius: 16px; animation: pulse-btn 2.5s ease-in-out infinite; }
-    @keyframes pulse-btn {
-      0%,100% { box-shadow: 0 4px 22px rgba(42,92,42,.38); }
-      50% { box-shadow: 0 10px 36px rgba(42,92,42,.58); }
-    }
-    .btn-sub { font-size: 16px; font-weight: 600; color: var(--text-light); text-align: center; margin-top: 11px; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
 
-    /* STICKY BAR */
-    .sticky-bar {
-      display: none; position: fixed; bottom: 0; left: 0; right: 0;
-      background: var(--green-btn); padding: 30px 22px;
-      z-index: 1000; box-shadow: 0 -4px 20px rgba(0,0,0,.2);
-    }
-    .sticky-bar a {
-      display: block; color: var(--white); font-family: 'Nunito', sans-serif;
-      font-size: 20px; font-weight: 800; text-align: center;
-    }
-    @media(max-width:768px) { .sticky-bar { display: block; } body { padding-bottom: 68px; } }
+body {
+  font-family: 'Inter', -apple-system, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  color: var(--ink);
+  background: var(--cream);
+  overflow-x: hidden;
+  padding-bottom: 80px;
+}
 
-    /* TOP BAR */
-    .topbar {
-      background: var(--text-dark); color: var(--white);
-      text-align: center; padding: 11px 20px;
-      font-size: 18px; font-weight: 700; letter-spacing: .02em;
-    }
-    .topbar span { color: var(--gold); }
+img { max-width: 100%; height: auto; display: block; }
 
-    /* HERO */
-    .hero { background: var(--cream); padding: 44px 0 40px; }
-    .hero-eyebrow {
-      font-size: 18px; font-weight: 800; letter-spacing: .15em;
-      text-transform: uppercase; color: var(--green-mid); margin-bottom: 18px; text-align: center;
-    }
-    .hero-headline { font-size: clamp(32px, 7vw, 44px); color: var(--text-dark); margin-bottom: 22px; }
-    .hero-headline em { color: var(--green-deep); font-style: italic; }
-    .hero-sub {
-      font-size: 22px; font-weight: 500; color: var(--text-mid);
-      line-height: 1.7; margin-bottom: 24px;
-    }
-    .hero-sub strong { color: var(--text-dark); font-weight: 800; }
-    .hero-chips { display: flex; flex-wrap: wrap; gap: 9px; margin-bottom: 28px; justify-content: center; }
-    .chip {
-      background: var(--green-deep); color: var(--white);
-      font-size: 18px; font-weight: 700; padding: 7px 16px; border-radius: 30px; text-align: center;
-    }
-    .chip-gold { background: var(--gold); }
-    .hero-cta-wrap { max-width: 400px; margin: 0 auto 18px; }
-    .hero-trust {
-      display: flex; flex-wrap: wrap; gap: 14px;
-      justify-content: center; font-size: 16px; font-weight: 600; color: var(--text-light);
-    }
-    .hero-trust-item { display: flex; align-items: center; gap: 5px; }
-    .hero-jar-visual {
-      margin: 36px auto 0; max-width: 100%; text-align: center;
-      background: linear-gradient(135deg, var(--green-light), var(--cream-dark));
-      border-radius: 24px; padding: 32px 20px;
-      box-shadow: 0 8px 40px rgba(42,92,42,.12);
-    }
-    .jar-emoji { font-size: 80px; display: block; margin-bottom: 18px; }
-    .jar-caption { font-size: 18px; font-weight: 700; color: var(--green-deep); }
+a { color: inherit; text-decoration: none; }
 
-    /* SOCIAL PROOF BAR */
-    .sp-bar { background: var(--green-deep); padding: 16px 0; }
-    .sp-bar-inner { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 10px 20px; }
-    .sp-item { color: var(--white); font-size: 16px; font-weight: 700; display: flex; align-items: center; gap: 6px; }
-    .sp-sep { color: rgba(255,255,255,.3); }
+/* ===== TYPOGRAPHY ===== */
+h1, h2, h3, h4 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.015em;
+  color: var(--green-deep);
+}
 
-    /* BRIDGE */
-    .bridge { background: var(--gold-light); border-top: 3px solid var(--gold); border-bottom: 3px solid var(--gold); padding: 26px 0; }
-    .bridge p { font-size: 18px; font-weight: 600; color: var(--text-dark); text-align: center; line-height: 1.65; }
-    .bridge p strong { color: var(--gold); font-weight: 800; }
+h1 { font-size: 38px; font-weight: 700; }
+h2 { font-size: 34px; }
+h3 { font-size: 28px; }
+h4 { font-size: 20px; font-weight: 600; }
 
-    /* PROBLEM */
-    .problem-list { list-style: none; display: flex; flex-direction: column; gap: 12px; margin: 24px 0 28px; }
-    .problem-list li {
-      display: flex; align-items: flex-start; gap: 13px;
-      background: var(--white); border-radius: 13px; padding: 20px 16px;
-      font-size: 18px; font-weight: 600; color: var(--text-dark);
-      box-shadow: 0 2px 10px rgba(0,0,0,.06); border-left: 5px solid #E74C3C;
-    }
-    .problem-list li .ico { font-size: 20px; flex-shrink: 0; }
-    .pivot-box {
-      background: var(--green-deep); color: var(--white);
-      border-radius: 18px; padding: 26px 22px; text-align: center;
-    }
-    .pivot-box p { font-size: 17px; font-weight: 600; line-height: 1.65; }
-    .pivot-box strong { font-weight: 900; font-family: 'Playfair Display', serif; font-size: 20px; }
+p { font-size: 18px; line-height: 1.7; color: var(--ink-soft); }
 
-    /* STEPS */
-    .steps { display: flex; flex-direction: column; gap: 20px; margin: 28px 0; }
-    .step { display: flex; gap: 17px; align-items: flex-start; }
-    .step-num {
-      width: 46px; height: 46px; border-radius: 50%; background: var(--green-deep);
-      color: var(--white); font-size: 20px; font-weight: 900; display: flex;
-      align-items: center; justify-content: center; flex-shrink: 0;
-      font-family: 'Playfair Display', serif;
-    }
-    .step-body h3 { font-size: 20px; font-weight: 800; margin-bottom: 4px; }
-    .step-body p { font-size: 18px; color: var(--text-mid); line-height: 1.55; }
+.eyebrow {
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--terracotta);
+  margin-bottom: 14px;
+}
 
-    /* IA DEMO */
-    .ia-card {
-      background: var(--white); border-radius: 20px; padding: 28px 22px;
-      box-shadow: 0 6px 30px rgba(0,0,0,.09); margin: 28px 0 32px;
-    }
-    .ia-card-title { font-size: 20px; font-weight: 800; text-align: center; margin-bottom: 24px; }
-    .ia-card-title span { color: var(--green-deep); }
-    .ia-input {
-      background: var(--cream); border: 2px dashed var(--green-mid);
-      border-radius: 13px; padding: 18px;
-    }
-    .ia-label { font-size: 16px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: var(--green-mid); margin-bottom: 7px; }
-    .ia-text { font-size: 18px; font-weight: 600; color: var(--text-dark); font-style: italic; }
-    .ia-arrow { text-align: center; font-size: 30px; padding: 14px 0; animation: bounce 1.8s ease-in-out infinite; }
-    @keyframes bounce { 0%,100% { transform: translateY(0); } 50% { transform: translateY(6px); } }
-    .ia-output { background: var(--green-deep); border-radius: 13px; padding: 20px; }
-    .ia-output-label { font-size: 16px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; color: rgba(255,255,255,.6); margin-bottom: 14px; }
-    .ia-list { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
-    .ia-list li { display: flex; align-items: center; gap: 7px; font-size: 18px; font-weight: 600; color: var(--white); }
-    .ia-list li::before { content: "✓"; color: #7FD67F; font-weight: 900; }
-    .ia-footer { text-align: center; margin-top: 18px; font-size: 18px; font-weight: 700; color: var(--text-mid); line-height: 1.5; }
-    .ia-footer strong { color: var(--green-deep); }
+em.accent {
+  font-style: italic;
+  color: var(--terracotta);
+  font-family: 'Fraunces', serif;
+}
 
-    /* RECIPES */
-    .recipe-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 13px; margin: 24px 0; }
-    .recipe-card { background: var(--white); border-radius: 14px; overflow: hidden; box-shadow: 0 3px 14px rgba(0,0,0,.08); }
-    .recipe-thumb { height: 110px; display: flex; align-items: center; justify-content: center; font-size: 52px; }
-    .recipe-thumb-1 { background: linear-gradient(135deg, #D4F5D4, #A8E6A8); }
-    .recipe-thumb-2 { background: linear-gradient(135deg, #FFE0C4, #FFCBA8); }
-    .recipe-thumb-3 { background: linear-gradient(135deg, #E0F7E0, #C4EEC4); }
-    .recipe-thumb-4 { background: linear-gradient(135deg, #FFF3CC, #FFE680); }
-    .recipe-thumb-5 { background: linear-gradient(135deg, #FFD6D6, #FFC2C2); }
-    .recipe-card-body { padding: 13px; }
-    .recipe-card-name { font-size: 18px; font-weight: 800; color: var(--text-dark); margin-bottom: 3px; line-height: 1.3; }
-    .recipe-card-tag { font-size: 16px; font-weight: 700; color: var(--green-mid); text-transform: uppercase; letter-spacing: .04em; }
-    .recipe-total-box {
-      background: var(--green-deep); color: var(--white); text-align: center;
-      border-radius: 14px; padding: 20px; margin: 4px 0 28px;
-    }
-    .recipe-total-box .big { font-family: 'Playfair Display', serif; font-size: 42px; font-weight: 900; display: block; line-height: 1; }
-    .recipe-total-box .label { font-size: 15px; font-weight: 700; opacity: .85; }
+strong { color: var(--green-deep); font-weight: 600; }
 
-    /* WHATSAPP */
-    .wa-section { background: var(--wa-bg); padding: 56px 0; }
-    .wa-header-text { margin-bottom: 28px; }
-    .wa-count {
-      display: inline-flex; align-items: center; gap: 8px;
-      background: var(--white); border-radius: 30px; padding: 8px 16px;
-      font-size: 13px; font-weight: 700; margin-bottom: 24px;
-      box-shadow: 0 2px 10px rgba(0,0,0,.1);
-    }
-    .wa-dot { width: 10px; height: 10px; border-radius: 50%; background: #25D366; animation: pulse-wa 2s ease-in-out infinite; }
-    @keyframes pulse-wa { 0%,100% { transform: scale(1); } 50% { transform: scale(1.5); opacity: .6; } }
-    .wa-messages { display: flex; flex-direction: column; gap: 16px; }
-    .wa-chat { background: var(--white); border-radius: 18px; overflow: hidden; box-shadow: 0 3px 16px rgba(0,0,0,.12); }
-    .wa-chat-header { background: #075E54; padding: 12px 16px; display: flex; align-items: center; gap: 13px; }
-    .wa-avatar {
-      width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center;
-      justify-content: center; font-size: 16px; font-weight: 800; color: var(--white); flex-shrink: 0;
-    }
-    .wa-contact { flex: 1; }
-    .wa-contact-name { font-size: 15px; font-weight: 700; color: var(--white); }
-    .wa-contact-status { font-size: 11px; color: rgba(255,255,255,.65); }
-    .wa-body { background: var(--wa-bg); padding: 16px 14px; display: flex; flex-direction: column; gap: 8px; }
-    .wa-bubble {
-      max-width: 82%; padding: 10px 14px; border-radius: 12px;
-      font-size: 14px; font-weight: 500; line-height: 1.5; position: relative;
-    }
-    .wa-in { background: var(--white); border-bottom-left-radius: 3px; align-self: flex-start; color: var(--text-dark); }
-    .wa-out { background: var(--wa-green); border-bottom-right-radius: 3px; align-self: flex-end; color: var(--text-dark); }
-    .wa-time { font-size: 10px; color: var(--text-light); margin-top: 3px; }
-    .wa-time-r { text-align: right; }
-    .wa-disclaimer { text-align: center; font-size: 12px; font-weight: 600; color: var(--text-light); margin-top: 20px; }
+/* ===== LAYOUT ===== */
+.container {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 22px;
+}
 
-    /* DELIVERABLES */
-    .deliverable {
-      background: var(--white); border-radius: 16px; padding: 20px;
-      margin-bottom: 13px; display: block; gap: 16px; align-items: flex-start;
-      box-shadow: 0 3px 14px rgba(0,0,0,.07); border-left: 5px solid var(--green-deep);
-    }
-    .deliverable-ico { font-size: 34px; flex-shrink: 0; margin-top: 16px; margin-bottom: 22px; }
-    .deliverable-body h3 { font-size: 22px; line-height: 1.6rem; font-weight: 800; margin: 16px; }
-    .deliverable-body p { font-size: 18px; color: var(--text-mid); line-height: 1.55; }
-    .deliverable-val { font-size: 11px; font-weight: 800; color: var(--green-mid); margin-top: 7px; text-transform: uppercase; letter-spacing: .05em; }
+section { padding: 64px 0; position: relative; }
 
-    /* BONUSES */
-    .bonus {
-      background: var(--gold-light); border-radius: 16px; padding: 22px 20px 18px;
-      margin-bottom: 14px; border: 2px solid #E5C158; position: relative;
-    }
-    .bonus-badge {
-      position: absolute; top: -12px; left: 18px;
-      background: var(--gold); color: var(--white);
-      font-size: 11px; font-weight: 800; padding: 4px 14px;
-      border-radius: 20px; text-transform: uppercase; letter-spacing: .08em;
-    }
-    .bonus h3 { font-size: 16px; font-weight: 800; margin-bottom: 4px; color: var(--text-dark); }
-    .bonus-obj { font-size: 11px; font-weight: 800; color: var(--gold); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 7px; }
-    .bonus p { font-size: 16px; color: var(--text-mid); line-height: 1.55; }
+.divider-leaf {
+  text-align: center;
+  margin: 32px 0;
+  font-size: 22px;
+  color: var(--green-mid);
+  opacity: 0.5;
+  letter-spacing: 0.6em;
+}
 
-    /* PRICE */
-    .price-stack { background: var(--cream-dark); border-radius: 16px; overflow: hidden; margin-bottom: 24px; }
-    .price-stack-header {
-      background: var(--green-deep); color: var(--white); padding: 14px 20px;
-      font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .12em; text-align: center;
-    }
-    .price-stack-body { padding: 16px 20px; display: flex; flex-direction: column; gap: 10px; }
-    .price-row { display: flex; justify-content: space-between; align-items: center; font-size: 16px; font-weight: 600; }
-    .price-row .name { color: var(--text-mid); flex: 1; }
-    .price-row .val { color: var(--text-light); text-decoration: line-through; }
-    .price-row-total { border-top: 2px solid var(--cream); padding: 14px 20px; display: flex; justify-content: space-between; align-items: center; }
-    .price-row-total .name { font-size: 15px; font-weight: 800; color: var(--text-dark); }
-    .price-row-total .val { font-size: 18px; font-weight: 800; color: var(--text-dark); text-decoration: line-through; }
-    .price-box {
-      background: var(--green-deep); border-radius: 22px; padding: 32px 26px;
-      text-align: center; margin-bottom: 18px;
-    }
-    .price-eyebrow { font-size: 18px; font-weight: 800; letter-spacing: .15em; text-transform: uppercase; color: rgb(255 255 255); margin-bottom: 6px; }
-    .price-old { font-size: 20px; font-weight: 700; color: rgba(255,255,255,.45); text-decoration: line-through; margin-bottom: 4px; }
-    .price-main { font-family: 'Playfair Display', serif; font-size: 62px; font-weight: 900; color: #f7ff00; line-height: 1; }
-    .price-ars { font-size: 22px; font-weight: 700; vertical-align: super; line-height: 1; }
-    .price-note { font-size: 16px; font-weight: 600; color: rgba(255,255,255,1); margin: 18px 0 20px; }
-    .price-off-badge {
-      display: inline-block; background: var(--gold); color: var(--white);
-      font-size: 15px; font-weight: 800; padding: 7px 18px; border-radius: 20px; margin-bottom: 22px;
-    }
-    .price-urgency {
-      background: rgba(255,255,255,.1); border-radius: 12px; padding: 13px 18px;
-      font-size: 16px; font-weight: 700; color: rgba(255,255,255,.9);
-      margin-bottom: 22px; display: flex; align-items: center; justify-content: center; gap: 9px;
-    }
-    .urgency-dot { width: 8px; height: 8px; border-radius: 50%; background: #FF6B6B; animation: pulse-wa 1.5s ease-in-out infinite; }
-    .mp-note { display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 16px; font-weight: 600; color: var(--text-light); margin-top: 13px; }
+/* ===== TIMER BAR ===== */
+.timer-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--green-deep);
+  color: var(--cream);
+  padding: 12px 16px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  box-shadow: 0 2px 12px rgba(45, 74, 62, 0.2);
+}
 
-    /* GUARANTEE */
-    .guarantee-box {
-      background: var(--white); border-radius: 20px; padding: 30px 24px;
-      text-align: center; border: 2px solid var(--green-light);
-      box-shadow: 0 4px 22px rgba(0,0,0,.06);
-    }
-    .guarantee-box .ico { font-size: 60px; margin-bottom: 16px; }
-    .guarantee-box h3 { font-size: 22px; font-weight: 800; margin-bottom: 12px; }
-    .guarantee-box p { font-size: 18px; color: var(--text-mid); line-height: 1.7; }
-    .guarantee-box strong { color: var(--text-dark); font-weight: 800; }
+.timer-bar strong { color: var(--mustard); font-weight: 700; }
 
-    /* FAQ */
-    .faq-item { border-bottom: 1px solid var(--cream-dark); }
-    .faq-q {
-      width: 100%; background: none; border: none; padding: 18px 0;
-      display: flex; justify-content: space-between; align-items: center;
-      gap: 13px; cursor: pointer; text-align: left;
-    }
-    .faq-q-txt { font-size: 18px; font-weight: 700; color: var(--text-dark); line-height: 1.4; }
-    .faq-icon { font-size: 20px; color: var(--green-deep); transition: transform .3s; flex-shrink: 0; }
-    .faq-item.open .faq-icon { transform: rotate(180deg); }
-    .faq-a { display: none; padding: 0 0 18px; font-size: 18px; color: var(--text-mid); line-height: 1.7; }
-    .faq-item.open .faq-a { display: block; }
-    .faq-a strong { color: var(--text-dark); font-weight: 700; }
-    .faq-highlight {
-      background: var(--gold-light); border-left: 4px solid var(--gold);
-      border-radius: 0 8px 8px 0; padding: 12px 14px; margin-top: 10px;
-      font-size: 14px; font-weight: 600; color: var(--text-dark);
-    }
+.timer-bar .timer-flame { display: inline-block; margin-right: 4px; }
 
-    /* CLOSING */
-    .closing-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 26px 0 32px; }
-    .closing-card { border-radius: 16px; padding: 20px 16px; }
-    .closing-a { background: #FEF0F0; border: 2px solid #F5C0C0; }
-    .closing-b { background: var(--green-light); border: 2px solid var(--green-mid); }
-    .closing-label { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .1em; margin-bottom: 14px; }
-    .closing-a .closing-label { color: var(--red-soft); }
-    .closing-b .closing-label { color: var(--green-deep); }
-    .closing-card ul { list-style: none; display: flex; flex-direction: column; gap: 9px; }
-    .closing-card li { font-size: 16px; font-weight: 600; color: var(--text-mid); line-height: 1.4; padding-left: 20px; position: relative; }
-    .closing-a li::before { content: "✗"; position: absolute; left: 0; color: var(--red-soft); font-weight: 800; }
-    .closing-b li::before { content: "✓"; position: absolute; left: 0; color: var(--green-deep); font-weight: 800; }
+#timer { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--mustard); }
 
-    /* FOOTER */
-    .footer { background: var(--text-dark); color: rgba(255,255,255,.5); padding: 28px 0; text-align: center; font-size: 12px; line-height: 1.8; }
-    .footer a { color: rgba(255,255,255,.4); text-decoration: underline; }
-    .footer a:hover { color: rgba(255,255,255,.8); }
+/* ===== HERO ===== */
+.hero {
+  background: linear-gradient(180deg, var(--cream-warm) 0%, var(--cream) 100%);
+  padding: 48px 0 56px;
+  position: relative;
+  overflow: hidden;
+}
 
-    /* ANIMATIONS */
-    .fade-up { opacity: 0; transform: translateY(22px); transition: opacity .5s ease, transform .5s ease; }
-    .fade-up.visible { opacity: 1; transform: translateY(0); }
+.hero::before {
+  content: '';
+  position: absolute;
+  top: -100px;
+  right: -120px;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, var(--green-soft) 0%, transparent 70%);
+  opacity: 0.6;
+  pointer-events: none;
+}
 
-    /* IMAGES */
-    .hero-jar-img { width: 100%; max-width: 99%; height: auto; display: block; margin: 0 auto 12px; filter: drop-shadow(0 14px 32px rgba(42,92,42,.28)); }
-    .lifestyle-img { width: 100%; border-radius: 18px; display: block; box-shadow: 0 8px 32px rgba(0,0,0,.13); margin: 28px 0 0; }
-    .problema-img { width: 100%; max-width: 320px; border-radius: 18px; display: block; margin: 0 auto 28px; box-shadow: 0 6px 24px rgba(0,0,0,.12); }
-    .recipe-thumb { height: 130px; overflow: hidden; background: var(--cream-dark); }
-    .recipe-thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
-    .deliverable-img { width: 100%; height: 220px; object-fit: cover; border-radius: 10px; flex-shrink: 0; }
-    .bonus-img { width: 100%; height: 150px; object-fit: cover; object-position: center top; border-radius: 10px; margin: 14px 0 16px; display: block; }
-    .sello-img { width: 110px; height: auto; margin: 0 auto 18px; display: block; }
-    .mp-logo { height: 70px; width: auto; vertical-align: middle; margin-right: 4px; }
-  </style>
-  <link rel="preload" as="image" href="assets/img/frasco-sinfondo.webp" fetchpriority="high">
+.hero-eyebrow {
+  display: inline-block;
+  background: var(--green-soft);
+  color: var(--green-deep);
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.hero h1 { margin-bottom: 22px; font-size: 38px; }
+
+.hero h1 em {
+  font-style: italic;
+  color: var(--terracotta);
+  font-weight: 700;
+}
+
+.hero-subhead {
+  font-size: 18px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+  margin-bottom: 32px;
+}
+
+
+
+.hero-image {
+  width: 100%;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  margin: 28px 0;
+  display: block;
+}
+
+.proof-icons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin: 28px 0 32px;
+}
+
+.proof-icon {
+  background: white;
+  padding: 18px 14px;
+  border-radius: var(--radius-md);
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--line);
+}
+
+.proof-icon-emoji { font-size: 26px; margin-bottom: 8px; display: block; }
+
+.proof-icon-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--green-deep);
+  line-height: 1.35;
+}
+
+/* ===== CTA BUTTONS ===== */
+.cta-primary {
+  display: block;
+  width: 100%;
+  background: var(--green-mid);
+  color: white;
+  padding: 20px 24px;
+  border-radius: var(--radius-md);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(200, 89, 58, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+.cta-primary:hover, .cta-primary:active {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(200, 89, 58, 0.4);
+}
+
+.cta-microcopy {
+  text-align: center;
+  font-size: 16px;
+  color: var(--ink-soft);
+  margin-top: 12px;
+  line-height: 1.5;
+}
+
+/* ===== BRIDGE ===== */
+.bridge {
+  background: var(--green-deep);
+  color: var(--cream);
+  padding: 48px 0;
+  text-align: center;
+}
+
+.bridge p {
+  font-size: 19px;
+  color: var(--cream);
+  line-height: 1.7;
+  font-family: 'Fraunces', serif;
+  font-weight: 400;
+}
+
+.bridge p em {
+  font-style: italic;
+  color: var(--mustard);
+  display: block;
+  margin: 14px 0;
+  font-size: 22px;
+}
+
+/* ===== PAIN POINTS ===== */
+.pain-section { background: var(--cream); }
+
+.pain-section h2 { margin-bottom: 22px; }
+
+.pain-section .intro {
+  font-size: 17px;
+  margin-bottom: 30px;
+  color: var(--ink-soft);
+}
+
+.pain-list {
+  list-style: none;
+  margin: 28px 0;
+}
+
+.pain-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 17px;
+  line-height: 1.6;
+  color: var(--ink);
+}
+
+.pain-list li:last-child { border-bottom: none; }
+
+.pain-cross {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  background: var(--terracotta-soft);
+  color: var(--terracotta);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 2px;
+}
+
+.pain-closing {
+  margin-top: 36px;
+  padding: 24px;
+  background: var(--green-soft);
+  border-radius: var(--radius-md);
+  text-align: center;
+  border-left: 4px solid var(--green-mid);
+}
+
+.pain-closing p {
+  font-size: 17px;
+  color: var(--green-deep);
+  margin-bottom: 8px;
+}
+
+.pain-closing strong {
+  font-family: 'Fraunces', serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--green-deep);
+}
+
+/* ===== SOCIAL PROOF ===== */
+.social-proof {
+  background: var(--green-deep);
+  color: var(--cream);
+}
+
+.social-proof h2 { color: var(--cream); margin-bottom: 36px; text-align: center; }
+
+.proof-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.proof-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 30px 22px;
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+
+.proof-number {
+  font-family: 'Fraunces', serif;
+  font-size: 44px;
+  font-weight: 700;
+  color: var(--mustard);
+  line-height: 1;
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+
+.proof-label {
+  font-size: 18px;
+  color: var(--cream);
+  opacity: 0.9;
+  line-height: 1.5;
+}
+
+.social-proof .closing {
+  text-align: center;
+  font-size: 18px;
+  color: var(--cream);
+  opacity: 0.85;
+  font-style: italic;
+  margin-top: 24px;
+  line-height: 1.7;
+}
+
+/* ===== HOW IT WORKS ===== */
+.how-section { background: var(--cream-warm); }
+
+.how-section h2 { text-align: center; margin-bottom: 12px; }
+.how-section .lead {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 17px;
+}
+
+.step-card {
+  background: white;
+  padding: 28px 24px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 22px;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+}
+
+.step-number {
+  font-family: 'Fraunces', serif;
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--green-mid);
+  line-height: 1;
+  position: absolute;
+  top: 12px;
+  right: 18px;
+}
+
+.step-card h3 { margin-bottom: 12px; padding-right: 60px; }
+
+.step-card p { font-size: 18px; }
+
+.how-image-placeholder {
+  width: 100%;
+  aspect-ratio: 16/10;
+  border-radius: var(--radius-md);
+  margin: 28px 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--green-mid);
+  font-size: 13px;
+  border: none;
+}
+
+.how-closing {
+  text-align: center;
+  font-family: 'Fraunces', serif;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--green-deep);
+  margin-top: 24px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* ===== DRESSINGS HERO BLOCK ===== */
+.dressings-section {
+  background: linear-gradient(180deg, var(--cream) 0%, var(--cream-warm) 100%);
+  position: relative;
+}
+
+.dressings-section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 1px;
+  background: var(--line);
+}
+
+.dressings-section h2 { margin-bottom: 16px; }
+
+.dressings-section h2 em {
+  font-style: italic;
+  color: var(--terracotta);
+}
+
+.dressings-lead {
+  font-size: 18px;
+  margin-bottom: 24px;
+  color: var(--ink-soft);
+  font-family: 'Fraunces', serif;
+  line-height: 1.6;
+}
+
+.dressings-body { font-size: 17px; margin-bottom: 32px; }
+
+.dressings-body p { margin-bottom: 18px; }
+
+.dressing-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  margin: 32px 0;
+}
+
+.dressing-card {
+  background: white;
+  padding: 24px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow-sm);
+}
+
+.dressing-icon { font-size: 32px; margin-bottom: 10px; }
+
+.dressing-card h4 {
+  margin-bottom: 8px;
+  color: var(--terracotta);
+  font-family: 'Fraunces', serif;
+  font-size: 22px;
+}
+
+.dressing-card p { font-size: 18px; line-height: 1.6; }
+
+.dressings-closing {
+  background: var(--green-deep);
+  color: var(--cream);
+  padding: 26px;
+  border-radius: var(--radius-md);
+  text-align: center;
+  margin-top: 28px;
+}
+
+.dressings-closing p {
+  color: var(--cream);
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+
+.dressings-closing strong {
+  font-family: 'Fraunces', serif;
+  font-size: 26px;
+  color: var(--mustard);
+}
+
+/* ===== VARIETY ===== */
+.variety-section { background: var(--cream); }
+
+.variety-section h2 { margin-bottom: 14px; text-align: center; }
+.variety-section .lead {
+  text-align: center;
+  margin-bottom: 36px;
+  font-size: 17px;
+}
+
+.variety-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.variety-card {
+  background: white;
+  padding: 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--line);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  box-shadow: var(--shadow-sm);
+}
+
+
+
+img.variety-thumb-img {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  border: none;
+  display: block;
+}
+
+
+.variety-text { flex: 1; min-width: 0; }
+.variety-text h4 { margin-bottom: 4px; font-size: 18px; }
+.variety-text p { font-size: 16px; margin: 0; line-height: normal; }
+
+.variety-numbers {
+  margin-top: 36px;
+  text-align: center;
+  font-family: 'Fraunces', serif;
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--green-deep);
+  line-height: 1.4;
+}
+
+.variety-numbers em {
+  font-style: italic;
+  color: var(--terracotta);
+}
+
+/* ===== COMPARISON ===== */
+.comparison-section { background: var(--cream-warm); }
+
+.comparison-section h2 { text-align: center; margin-bottom: 36px; }
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  margin-bottom: 36px;
+}
+
+.comparison-col {
+  background: white;
+  padding: 26px 22px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-sm);
+}
+
+.comparison-col.bad { border-top: 4px solid var(--terracotta); }
+.comparison-col.good { border-top: 4px solid var(--green-mid); }
+
+.comparison-col h3 {
+  font-size: 20px;
+  margin-bottom: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+.comparison-col.bad h3 { color: var(--terracotta); }
+.comparison-col.good h3 { color: var(--green-mid); }
+
+.comparison-col ul { list-style: none; }
+
+.comparison-col li {
+  padding: 12px 0;
+  border-bottom: 1px dashed var(--line);
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.comparison-col li:last-child { border-bottom: none; }
+
+.comparison-col.bad li::before {
+  content: '✕';
+  color: var(--terracotta);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.comparison-col.good li::before {
+  content: '✓';
+  color: var(--green-mid);
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.comparison-closing {
+  text-align: center;
+  margin: 32px 0;
+}
+
+.comparison-closing p {
+  font-family: 'Fraunces', serif;
+  font-size: 19px;
+  color: var(--green-deep);
+  line-height: 1.5;
+}
+
+.comparison-closing strong {
+  display: block;
+  font-size: 26px;
+  color: var(--terracotta);
+  margin-top: 6px;
+  font-weight: 700;
+}
+
+/* ===== STACK ===== */
+.stack-section { background: var(--cream); }
+
+.stack-section h2 { text-align: center; margin-bottom: 14px; }
+.stack-section .lead {
+  text-align: center;
+  margin-bottom: 36px;
+  font-size: 17px;
+}
+
+.stack-card {
+  background: white;
+  padding: 28px 24px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 22px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--line);
+  position: relative;
+}
+
+.stack-card h3 {
+  margin-bottom: 12px;
+  font-size: 22px;
+}
+
+.stack-card .featured-tag {
+  display: inline-block;
+  background: var(--terracotta);
+  color: white;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+.stack-card p { font-size: 18px; line-height: 1.65; }
+
+.stack-card .quote {
+  margin-top: 14px;
+  padding: 14px 16px;
+  background: var(--cream-warm);
+  border-left: 3px solid var(--terracotta);
+  font-style: italic;
+  font-family: 'Fraunces', serif;
+  font-size: 20px;
+  color: var(--green-deep);
+  border-radius: 4px;
+}
+
+img.stack-card-image {
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  margin-bottom: 20px;
+  border: none;
+  display: block;
+}
+
+/* ===== BONUSES ===== */
+.bonuses-section { background: var(--green-soft); }
+
+.bonuses-section h2 { text-align: center; margin-bottom: 36px; }
+
+.bonus-card {
+  background: white;
+  padding: 24px;
+  border-radius: var(--radius-md);
+  margin-bottom: 18px;
+  box-shadow: var(--shadow-sm);
+  border-left: 4px solid var(--mustard);
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+img.bonus-cover-img {
+  flex-shrink: 0;
+  width: 110px;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+  border: none;
+  display: block;
+}
+
+.bonus-content { flex: 1; min-width: 0; }
+
+.bonus-tag {
+  display: inline-block;
+  background: var(--green-deep);
+  color: var(--cream);
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin-bottom: 12px;
+  font-family: 'Inter', sans-serif;
+}
+
+.bonus-card h4 {
+  margin-bottom: 10px;
+  font-size: 19px;
+  color: var(--green-deep);
+}
+
+.bonus-card p { font-size: 15px; line-height: 1.6; margin-bottom: 0; }
+
+/* ===== OFFER ===== */
+.offer-section {
+  background: linear-gradient(180deg, var(--green-deep) 0%, #1f3a30 100%);
+  color: var(--cream);
+}
+
+.offer-section h2 { color: var(--cream); text-align: center; margin-bottom: 32px; }
+
+.offer-section h2 em {
+  font-style: italic;
+  color: var(--mustard);
+}
+
+.value-table {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 24px 22px;
+  border-radius: var(--radius-md);
+  margin-bottom: 28px;
+}
+
+.value-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+  font-size: 15px;
+  line-height: 1.4;
+  gap: 12px;
+}
+
+.value-row:last-child { border-bottom: none; }
+
+.value-row .name { flex: 1; color: var(--cream); }
+
+.value-row .price {
+  color: var(--cream);
+  opacity: 0.6;
+  text-decoration: line-through;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.value-total {
+  margin-top: 16px;
+  padding-top: 18px;
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Fraunces', serif;
+  font-size: 19px;
+}
+
+.value-total .label { color: var(--cream); }
+.value-total .total {
+  color: var(--mustard);
+  font-weight: 700;
+  text-decoration: line-through;
+}
+
+.price-box {
+  background: var(--cream);
+  color: var(--ink);
+  padding: 32px 24px;
+  border-radius: var(--radius-lg);
+  text-align: center;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow-lg);
+}
+
+.price-box .label {
+  font-size: 14px;
+  color: var(--ink-soft);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+.price-was {
+  text-decoration: line-through;
+  color: var(--ink-soft);
+  font-size: 20px;
+  margin-bottom: 4px;
+  font-family: 'Fraunces', serif;
+}
+
+.price-now {
+  font-family: 'Fraunces', serif;
+  font-size: 56px;
+  font-weight: 800;
+  color: var(--terracotta);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.price-currency {
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin-bottom: 18px;
+  font-weight: 500;
+}
+
+.price-discount-badge {
+  display: inline-block;
+  background: var(--green-deep);
+  color: white;
+  padding: 8px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.payment-icons {
+  margin-top: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 16px;
+  color: var(--cream);
+  opacity: 0.8;
+}
+
+/* ===== GUARANTEE ===== */
+.guarantee-section { background: var(--cream-warm); }
+
+.guarantee-section h2 { text-align: center; margin-bottom: 24px; }
+
+.guarantee-text {
+  font-size: 17px;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.guarantee-text strong {
+  display: block;
+  margin-top: 14px;
+  font-family: 'Fraunces', serif;
+  font-size: 19px;
+  color: var(--green-deep);
+}
+
+img.guarantee-badge-img {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 28px;
+  display: block;
+  object-fit: contain;
+}
+
+/* ===== ABOUT ===== */
+.about-section { background: var(--cream); }
+
+.about-section h2 { text-align: center; margin-bottom: 32px; }
+
+.about-text {
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.about-text p { margin-bottom: 18px; }
+
+.about-text strong {
+  font-family: 'Fraunces', serif;
+  font-size: 19px;
+  color: var(--green-deep);
+  font-weight: 600;
+}
+
+/* ===== FAQ ===== */
+.faq-section { background: var(--cream-warm); }
+
+.faq-section h2 { text-align: center; margin-bottom: 36px; }
+
+.faq-item {
+  background: white;
+  border-radius: var(--radius-md);
+  margin-bottom: 14px;
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+}
+
+.faq-question {
+  padding: 20px 22px;
+  font-family: 'Fraunces', serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--green-deep);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14px;
+  user-select: none;
+  list-style: none;
+}
+
+.faq-question::-webkit-details-marker { display: none; }
+
+.faq-question::after {
+  content: '+';
+  font-size: 26px;
+  color: var(--terracotta);
+  font-weight: 400;
+  flex-shrink: 0;
+  transition: transform 0.25s ease;
+  font-family: 'Inter', sans-serif;
+}
+
+details[open] .faq-question::after {
+  transform: rotate(45deg);
+}
+
+.faq-answer {
+  padding: 0 22px 22px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--ink-soft);
+}
+
+.faq-answer strong { color: var(--green-deep); }
+
+/* ===== BONUS SURPRISE (IA) ===== */
+.surprise-section {
+  background: var(--cream);
+  position: relative;
+}
+
+.surprise-eyebrow {
+  display: inline-block;
+  background: var(--mustard);
+  color: var(--green-deep);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.surprise-section h2 { margin-bottom: 24px; }
+
+.surprise-text {
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+.surprise-text p { margin-bottom: 18px; }
+
+.surprise-card {
+  background: var(--green-soft);
+  padding: 24px;
+  border-radius: var(--radius-md);
+  margin-top: 24px;
+  border: 1px solid var(--green-mid);
+}
+
+.surprise-card p {
+  font-style: italic;
+  font-family: 'Fraunces', serif;
+  color: var(--green-deep);
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  line-height: 1.6;
+}
+
+/* ===== FINAL CTA ===== */
+.final-section {
+  background: linear-gradient(180deg, var(--cream) 0%, var(--cream-warm) 100%);
+  text-align: center;
+}
+
+.final-section h2 { margin-bottom: 28px; }
+
+.final-text {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 36px;
+  text-align: left;
+}
+
+.final-text p { margin-bottom: 18px; }
+
+.final-cta-wrap {
+  text-align: center;
+}
+
+.final-timer {
+  margin-top: 20px;
+  background: var(--green-deep);
+  color: var(--cream);
+  padding: 14px 18px;
+  border-radius: var(--radius-md);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.final-timer strong { color: var(--mustard); }
+
+/* ===== FOOTER ===== */
+footer {
+  background: var(--green-deep);
+  color: var(--cream);
+  padding: 36px 0 24px;
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+footer p { color: var(--cream); margin-bottom: 8px; opacity: 0.8; font-size: 13px; }
+
+footer a { color: var(--mustard); margin: 0 6px; }
+
+/* ===== STICKY MOBILE FOOTER CTA ===== */
+.sticky-cta {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  padding: 12px 16px;
+  box-shadow: 0 -4px 20px rgba(31, 41, 34, 0.12);
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.sticky-cta-btn {
+  flex: 1;
+  background: var(--terracotta);
+  color: white;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+}
+
+.sticky-cta-timer {
+  font-size: 11px;
+  color: var(--ink-soft);
+  text-align: right;
+  line-height: 1.3;
+  flex-shrink: 0;
+  font-weight: 600;
+}
+
+.sticky-cta-timer span { display: block; color: var(--terracotta); font-size: 13px; font-weight: 700; }
+
+/* ===== RESPONSIVE ===== */
+@media (min-width: 768px) {
+  body { font-size: 18px; padding-bottom: 0; }
+
+  h1 { font-size: 52px; }
+  h2 { font-size: 40px; }
+  h3 { font-size: 28px; }
+  h4 { font-size: 22px; }
+  p { font-size: 18px; }
+
+  .container { max-width: 880px; padding: 0 32px; }
+
+  section { padding: 90px 0; }
+
+  .hero { padding: 64px 0 90px; }
+  .hero h1 { font-size: 54px; }
+  .hero-subhead { font-size: 20px; }
+
+  .proof-icons { grid-template-columns: repeat(4, 1fr); gap: 16px; }
+
+  .proof-cards { grid-template-columns: repeat(3, 1fr); gap: 22px; }
+
+  .comparison-grid { grid-template-columns: 1fr 1fr; gap: 24px; }
+
+  .dressing-cards { grid-template-columns: repeat(3, 1fr); }
+
+  .bridge p { font-size: 22px; }
+  .bridge p em { font-size: 28px; }
+
+  .price-now { font-size: 80px; }
+
+  .sticky-cta { display: none; }
+
+  .cta-primary { font-size: 19px; padding: 22px 28px; max-width: 500px; margin: 0 auto; }
+}
+
+img.about-image {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 28px;
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid var(--cream-warm);
+  box-shadow: var(--shadow-md);
+}
+
+@media (min-width: 1024px) {
+  .container { max-width: 980px; }
+
+  .stack-card-image { aspect-ratio: 21/9; }
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.hero h1, .hero-subhead, .hero-eyebrow {
+  animation: fadeUp 0.8s ease-out backwards;
+}
+
+.hero-eyebrow { animation-delay: 0.1s; }
+.hero h1 { animation-delay: 0.2s; }
+.hero-subhead { animation-delay: 0.4s; }
+
+</style>
 </head>
 <body>
 
-<!-- TOP BAR -->
-<div class="topbar">
-  ⏳ Precio de lanzamiento · <span>75% OFF</span> · Acceso inmediato · Garantía 7 días
+<!-- ============ TIMER BAR (sticky top) ============ -->
+<div class="timer-bar">
+  <span class="timer-flame">🔥</span>
+  <strong>Precio de lanzamiento · 70% OFF</strong> · termina en
+  <span id="timer">--:--:--</span>
 </div>
 
-<!-- HERO -->
+<!-- ============ HERO ============ -->
 <section class="hero">
   <div class="container">
-    <p class="hero-eyebrow">100 Recetas riquísimas para usar el Método de Ensaladas en Frasco</p>
+    <span class="hero-eyebrow">+350 mujeres argentinas ya resolvieron su semana</span>
+    <h1>Mi marido bajó 6 kilos. Mis compañeras me <em>piden la receta.</em> Y yo cocino solo los domingos.</h1>
+    <p class="hero-subhead">Dejé de gastar $200.000 al mes en delivery y verdura que tiraba. Ahora con 60 minutos cada domingo tengo la semana resuelta — con <strong>aderezos caseros que hacen que cualquier ensalada se sienta de restaurante</strong> — y como mejor por menos de $3.600 el almuerzo.</p>
 
-    <h1 class="headline hero-headline" style="text-align:center;">
-      Mi marido bajó 6 kilos.<br>
-      Mis compañeras me <em>piden la receta.</em><br>
-      Y yo cocino solo los domingos.
-    </h1>
-
-    <p class="hero-sub" style="text-align:center;">
-       Más de 300 mujeres ya dejaron de gastar <strong>$200.000 al mes en delivery</strong> y comen
-      mejor que en cualquier restaurante por <strong>$3.600 por almuerzo.</strong> Con <strong>60 minutos cada domingo</strong>, tienen la semana entera resuelta.
-    </p>
-
-    <div class="hero-chips">
-      <span class="chip">💸 $200.000 / mes en ahorro</span>
-      <span class="chip">⏱️ 60 min el domingo</span>
-      <span class="chip">🥗 $3.600 por almuerzo</span>
+    <div class="hero-image-placeholder">
+      <img src="assets/imagen-hero-vertical.webp" alt="Modelo con frascos de ensalada" class="hero-image">
     </div>
 
-    <div class="hero-cta-wrap">
-      <a href="https://puntoycomastore.com/checkouts/cn/hWNAELe1U2VeOsIy9JkHrHzF/" class="btn btn-lg">
-        🛒 SÍ, QUIERO EL MÉTODO COMPLETO
-      </a>
-      <p class="btn-sub">Descarga inmediata · Pago 100% seguro · Garantía 7 días</p>
+    <div class="proof-icons">
+      <div class="proof-icon">
+        <span class="proof-icon-emoji">💸</span>
+        <div class="proof-icon-text">$200.000 / mes<br>en ahorro real</div>
+      </div>
+      <div class="proof-icon">
+        <span class="proof-icon-emoji">⏱️</span>
+        <div class="proof-icon-text">60 minutos<br>el domingo</div>
+      </div>
+      <div class="proof-icon">
+        <span class="proof-icon-emoji">🥗</span>
+        <div class="proof-icon-text">$3.600 por<br>almuerzo gourmet</div>
+      </div>
+      <div class="proof-icon">
+        <span class="proof-icon-emoji">🧪</span>
+        <div class="proof-icon-text">Aderezos que<br>cambian todo</div>
+      </div>
     </div>
 
-    <div class="hero-trust">
-      <span class="hero-trust-item">✅ +350 mujeres ya lo usan</span>
-      <span class="hero-trust-item">🔒 Pago seguro con Mercado Pago</span>
-      <span class="hero-trust-item">📲 Acceso inmediato</span>
-    </div>
-
-    <div class="hero-jar-visual fade-up">
-      <img src="assets/img/frasco-sinfondo.webp" alt="Ensalada en frasco con capas de ingredientes frescos" class="hero-jar-img" width="260" height="260" fetchpriority="high">
-      <p class="jar-caption">Fresco desde el domingo hasta el viernes. Sin magia: con método.</p>
-    </div>
+    <a href="https://puntoycomastore.com/checkouts/cn/hWNAELe1U2VeOsIy9JkHrHzF/" class="cta-primary" onclick="fbq('track', 'InitiateCheckout');">🛒 QUIERO RESOLVER MI SEMANA — $14.990</a>
+    <p class="cta-microcopy">Acceso inmediato · Pago seguro · Garantía 7 días</p>
   </div>
 </section>
 
-<!-- SOCIAL PROOF BAR -->
-<div class="sp-bar">
-  <div class="container">
-    <div class="sp-bar-inner">
-      <span class="sp-item">⭐ +390 ventas</span>
-      <span class="sp-sep">·</span>
-      <span class="sp-item">📦 100 recetas</span>
-      <span class="sp-sep">·</span>
-      <span class="sp-item">🔄 7 días de garantía</span>
-    </div>
-  </div>
-</div>
-
-<!-- BRIDGE NARRATIVE -->
-<div class="bridge">
+<!-- ============ BRIDGE (continuidad con el ad) ============ -->
+<section class="bridge">
   <div class="container">
     <p>
-      Si llegaste acá por el video del marido que se enganchó con los frascos,
-      o el de las compañeras pidiéndote la receta en la oficina —
-      <strong>llegaste al lugar correcto. Esto es exactamente eso.</strong>
+      Si llegaste por el video del marido o tu familia que se engancharon con los frascos —<br>
+      o el de las compañeras de oficina pidiéndote la receta —
+      <em>llegaste al lugar correcto.</em>
+      Este es exactamente el método del que hablamos.
     </p>
   </div>
-</div>
+</section>
 
-<!-- PROBLEM -->
-<section class="section">
+<!-- ============ PAIN POINTS ============ -->
+<section class="pain-section">
   <div class="container">
-    <span class="tag">El verdadero problema</span>
-    <h2 class="headline" style="font-size: clamp(24px,6vw,38px); margin-bottom:8px;">
-      No te falta voluntad.<br>Te falta un sistema.
-    </h2>
-    <p style="font-size:15px; color:var(--text-mid); margin-bottom: 28px; line-height:1.65;">
-      El problema no es querer comer sano. Es que sin logística, es imposible sostenerlo.
-    </p>
+    <h2>No es que te falte voluntad. Es que sin un sistema, es imposible sostenerlo.</h2>
+    <p class="intro">Tenés más de 45 años, una rutina exigente y la cabeza llena de cosas. La última batalla que querés dar al final del día es contra tu propia heladera.</p>
 
-    <img src="assets/img/problema.webp" alt="Heladera casi vacía" class="problema-img fade-up" width="320" height="427" loading="lazy">
-
-    <ul class="problem-list">
-      <li><span class="ico">😩</span> Llegás agotada a casa y la heladera tiene verduras que ya no tienen buena pinta.</li>
-      <li><span class="ico">🗑️</span> Comprás con buena intención y terminás tirando la mitad a la basura.</li>
-      <li><span class="ico">💸</span> Entre el delivery y la improvisación, se te van $200.000 al mes sin darte cuenta.</li>
-      <li><span class="ico">😔</span> Ya intentaste comer sano antes, pero sin sistema es imposible sostenerlo.</li>
-      <li><span class="ico">🥬</span> La ensalada de lechuga y tomate te aburre al tercer día y abandonás.</li>
-      <li><span class="ico">🤯</span> Pensás en qué cocinar mañana cuando deberías estar descansando.</li>
+    <ul class="pain-list">
+      <li><span class="pain-cross">✕</span> Llegás cansada y la heladera te recibe con verdura que ya está fea.</li>
+      <li><span class="pain-cross">✕</span> Compraste con buena intención el sábado y el miércoles tirás la mitad.</li>
+      <li><span class="pain-cross">✕</span> Entre el delivery y la improvisación, se te van $200.000 al mes sin que te des cuenta.</li>
+      <li><span class="pain-cross">✕</span> La pregunta de las 8 de la noche — <em>"¿qué hago de comer mañana?"</em> — te persigue.</li>
+      <li><span class="pain-cross">✕</span> Probaste comer sano antes, pero sin método terminaste en lo de siempre.</li>
     </ul>
 
-    <div class="pivot-box">
-      <p>
-        Eso es exactamente lo que resuelve este método.<br><br>
-        <strong>No es fuerza de voluntad. Es organización.</strong><br><br>
-        Una hora el domingo. La semana entera resuelta.
-      </p>
+    <div class="pain-closing">
+      <p>Eso es exactamente lo que resuelve este método.</p>
+      <strong>No es fuerza de voluntad. Es organización.</strong>
     </div>
   </div>
-  
 </section>
 
-<!-- HOW IT WORKS -->
-<section class="section section-alt">
+<!-- ============ SOCIAL PROOF ============ -->
+<section class="social-proof">
   <div class="container">
-    <span class="tag">Cómo funciona</span>
-    <h2 class="headline" style="font-size: clamp(30px,6vw,36px); margin-bottom:8px;">
-      2 pasos. Un domingo. Semana entera solucionada.
-    </h2>
-    <p style="font-size:15px; color:var(--text-mid); margin-bottom:8px; line-height:1.65;">
-      Así funciona el Método de Ensaladas en Frasco:
-    </p>
+    <h2>Más de 350 mujeres argentinas ya cambiaron su semana.</h2>
 
-    <div class="steps">
-      <div class="step fade-up">
-        <div class="step-num">1</div>
-        <div class="step-body">
-          <h3>Elegís tus recetas</h3>
-          <p>Seleccionás entre 100 combinaciones las que querés preparar esa semana. Ligeras, proteicas, gourmet, vegetarianas — variedad real para no aburrirte nunca.</p>
-        </div>
+    <div class="proof-cards">
+      <div class="proof-card">
+        <div class="proof-number">+350</div>
+        <div class="proof-label">Mujeres con su semana resuelta</div>
       </div>
-     
-      <div class="step fade-up">
-        <div class="step-num">2</div>
-        <div class="step-body">
-          <h3>Armás tus frascos con el Protocolo de Capas</h3>
-          <p>El orden correcto de los ingredientes mantiene todo fresco, crujiente y delicioso desde el lunes hasta el viernes. Sin que se marchite ni se ablande.</p>
-        </div>
+      <div class="proof-card">
+        <div class="proof-number">+$3,5M</div>
+        <div class="proof-label">Ahorrados en delivery (suma de las compradoras)</div>
+      </div>
+      <div class="proof-card">
+        <div class="proof-number">+17.000</div>
+        <div class="proof-label">Frascos preparados desde el lanzamiento</div>
       </div>
     </div>
 
-     
-
-    <img src="assets/img/04.webp" alt="Mujer con sus frascos preparados para la semana" class="lifestyle-img fade-up" width="660" height="440" loading="lazy">
-
-    <div style="background: var(--green-deep); border-radius: 16px; padding: 22px; text-align: center; color: var(--white); margin-top: 24px;">
-      <p style="font-size: 17px; font-weight: 700; line-height:1.6;">
-        Resultado: la heladera llena, la semana organizada<br>
-        y cero pregunta de las 8 de la noche.
-      </p>
-    </div>
+    <p class="closing">Mujeres reales, en Argentina, en 2026. Heladeras llenas. Domingos tranquilos. Almuerzos que les van a gustar a muchos de tu familia.</p>
   </div>
 </section>
 
-
-
-<!-- RECIPES -->
-<section class="section section-alt">
+<!-- ============ HOW IT WORKS ============ -->
+<section class="how-section">
   <div class="container">
-    <span class="tag">Variedad real</span>
-    <h2 class="headline" style="font-size: clamp(24px,6vw,36px); margin-bottom:8px;">
-      100 combinaciones para que comer sano no se vuelva aburrido.
-    </h2>
-    <p style="font-size:18px; color:var(--text-mid); margin-bottom:24px; line-height:1.65;">
-      No la típica ensalada de lechuga y tomate. Variedad real, sabor de verdad y frescura toda la semana.
-    </p>
+    <h2>2 pasos. Un domingo. Una semana entera resuelta.</h2>
+    <p class="lead">Así de simple funciona el Método de Ensaladas en Frasco.</p>
 
-    <div class="recipe-grid">
-      <div class="recipe-card fade-up">
-        <div class="recipe-thumb">
-          <img src="assets/img/receta-01.webp" alt="Ensalada ligera en frasco con rúcula y naranja" width="330" height="130" loading="lazy">
-        </div>
-        <div class="recipe-card-body">
-          <p class="recipe-card-name">Ligeras y frescas</p>
-          <p class="recipe-card-tag">Sentirse liviana ✓</p>
-        </div>
-      </div>
-      <div class="recipe-card fade-up">
-        <div class="recipe-thumb">
-          <img src="assets/img/receta-21.webp" alt="Ensalada proteica en frasco con pollo" width="330" height="130" loading="lazy">
-        </div>
-        <div class="recipe-card-body">
-          <p class="recipe-card-name">Proteicas y rendidoras</p>
-          <p class="recipe-card-tag">Saciedad real ✓</p>
-        </div>
-      </div>
-      <div class="recipe-card fade-up">
-        <div class="recipe-thumb">
-          <img src="assets/img/receta-45.webp" alt="Ensalada vegetariana en frasco con palta y huevo" width="330" height="130" loading="lazy">
-        </div>
-        <div class="recipe-card-body">
-          <p class="recipe-card-name">Vegetarianas inteligentes</p>
-          <p class="recipe-card-tag">Variedad sin repetir ✓</p>
-        </div>
-      </div>
-      <div class="recipe-card fade-up">
-        <div class="recipe-thumb">
-          <img src="assets/img/receta-68.webp" alt="Ensalada energética en frasco con pasta" width="330" height="130" loading="lazy">
-        </div>
-        <div class="recipe-card-body">
-          <p class="recipe-card-name">Energéticas y completas</p>
-          <p class="recipe-card-tag">Para días intensos ✓</p>
-        </div>
-      </div>
+    <div class="step-card">
+      <div class="step-number">1</div>
+      <h3>Elegís tus recetas de la semana</h3>
+      <p>Ligeras, proteicas, vegetarianas, gourmet. 100 combinaciones reales para que no te aburras nunca y para que cada día tengas algo distinto en la heladera.</p>
     </div>
 
-    <div class="recipe-card fade-up" style="margin-bottom:14px;">
-      <div class="recipe-thumb">
-        <img src="assets/img/receta-84.webp" alt="Ensalada gourmet en frasco con salmón" width="660" height="130" loading="lazy">
-      </div>
-      <div class="recipe-card-body">
-        <p class="recipe-card-name">Gourmet sin culpa</p>
-        <p class="recipe-card-tag">Aderezos que parecen de restaurante ✓</p>
-      </div>
+    <div class="step-card">
+      <div class="step-number">2</div>
+      <h3>Armás tus frascos con el Protocolo de Capas</h3>
+      <p>El orden correcto de los ingredientes — aderezo abajo, hojas arriba, vegetales firmes en el medio — mantiene todo crujiente y fresco desde el lunes hasta el viernes. <strong>Es física, no es magia.</strong></p>
     </div>
 
-    <div class="recipe-total-box">
-      <span class="big">100</span>
-      <span class="label">combinaciones. Una para cada día, humor y objetivo.</span>
-    </div>
+    <img src="assets/capas-ensalada.webp" alt="Frasco con capas correctas" class="stack-card-image">
+
+    <p class="how-closing">Resultado: la heladera llena, la semana organizada<br>y cero pregunta de las 8 de la noche.</p>
   </div>
 </section>
 
-<!-- WHATSAPP TESTIMONIALS -->
-<section class="wa-section">
+<!-- ============ DRESSINGS HERO BLOCK ============ -->
+<section class="dressings-section">
   <div class="container">
-    <div class="wa-header-text">
-      <span class="tag">Lo que dicen las que ya lo usan</span>
-      <h2 class="headline" style="font-size: clamp(22px,5.5vw,34px); margin-bottom:8px; color: var(--text-dark);">
-        +350 mujeres ya resuelven su semana con este método.
-      </h2>
-      <p style="font-size:15px; color:var(--text-mid); line-height:1.65; margin-bottom:20px;">
-        Esto es lo que pasa cuando la heladera deja de ser el problema y empieza a ser la solución.
-      </p>
+    <h2>El secreto no está en la lechuga. Está en <em>lo que la acompaña.</em></h2>
+    <p class="dressings-lead">A nadie se le antoja una ensalada porque la lechuga sea verde. Se le antoja porque el aderezo está bueno. Como las salsas hacen a la pasta — los aderezos hacen a la ensalada.</p>
+
+    <div class="dressings-body">
+      <p>Por eso este método incluye un libro entero dedicado solo a los aderezos. Fórmulas caseras, simples, con ingredientes que ya tenés en tu cocina, que transforman cualquier combinación de vegetales en un plato que te dan ganas de comer todos los días.</p>
+      <p>Son los aderezos los que hacen que tu marido te saque el frasco. Los que hacen que tus compañeras te pidan la receta. Los que hacen que comer sano deje de sentirse como una condena y empiece a sentirse como un placer.</p>
     </div>
 
-    <div class="wa-count">
-      <span class="wa-dot"></span>
-      Mensajes reales de compradoras argentinas
+    <div class="dressing-cards">
+      <div class="dressing-card">
+        <div class="dressing-icon">🌿</div>
+        <h4>Verdes y frescos</h4>
+        <p>Pesto liviano, yogur con hierbas, aderezo de palta. Para las combinaciones del día a día.</p>
+      </div>
+      <div class="dressing-card">
+        <div class="dressing-icon">🌶️</div>
+        <h4>Cremosos con carácter</h4>
+        <p>Mostaza miel, tahini con limón, ajo asado. Los que hacen que el frasco se sienta gourmet.</p>
+      </div>
+      <div class="dressing-card">
+        <div class="dressing-icon">⚡</div>
+        <h4>Cítricos energizantes</h4>
+        <p>Vinagretas con fruta, jengibre con miel, balsámico reducido. Para los días en que necesitás un plato vivo.</p>
+      </div>
     </div>
 
-    <div class="wa-messages">
-
-      <!-- CHAT 1: MARIDO -->
-      <div class="wa-chat fade-up">
-        <div class="wa-chat-header">
-          <div class="wa-avatar" style="background:#8E44AD;padding:0;overflow:hidden;"><img src="assets/img/d.webp" alt="Silvia G." width="40" height="40" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-          <div class="wa-contact">
-            <p class="wa-contact-name">Silvia G.</p>
-            <p class="wa-contact-status">Rosario · 52 años</p>
-          </div>
-        </div>
-        <div class="wa-body">
-          <div>
-            <div class="wa-bubble wa-out">Nati te tengo que contar algo jajajaj</div>
-            <p class="wa-time wa-time-r">19:23</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-in">Que paso??</div>
-            <p class="wa-time">19:24</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-out">Mi marido que NUNCA en su vida comió ensalada... ayer me preguntó si había hecho más frascos para él 😂😂😂</div>
-            <p class="wa-time wa-time-r">19:25</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-in">No puede ser jajaja y bajo algo??</div>
-            <p class="wa-time">19:25</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-out">4 kilos en un mes y ni sabe cómo. Cree que es alguna dieta que hice yo 😅</div>
-            <p class="wa-time wa-time-r">19:26</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- CHAT 2: AHORRO -->
-      <div class="wa-chat fade-up">
-        <div class="wa-chat-header">
-          <div class="wa-avatar" style="background:#D35400;padding:0;overflow:hidden;"><img src="assets/img/b.webp" alt="Graciela M." width="40" height="40" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-          <div class="wa-contact">
-            <p class="wa-contact-name">Graciela M.</p>
-            <p class="wa-contact-status">CABA · 48 años</p>
-          </div>
-        </div>
-        <div class="wa-body">
-          <div>
-            <div class="wa-bubble wa-out">Rosi mira lo que calcule</div>
-            <p class="wa-time wa-time-r">21:14</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-in">Que cosa</div>
-            <p class="wa-time">21:15</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-out">El mes pasado gasté como $185.000 entre delivery y verduras que tiré. Este mes $44.000 y tengo la heladera llena toda la semana</div>
-            <p class="wa-time wa-time-r">21:16</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-in">Para... eso es una locura</div>
-            <p class="wa-time">21:16</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-out">Te juro. Estoy fascinada con esto. No puedo creer lo que tiraba antes</div>
-            <p class="wa-time wa-time-r">21:17</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- CHAT 3: COMPAÑERAS OFICINA -->
-      <div class="wa-chat fade-up">
-        <div class="wa-chat-header">
-          <div class="wa-avatar" style="background:#1A6B3C;padding:0;overflow:hidden;"><img src="assets/img/a.webp" alt="Marcela A." width="40" height="40" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-          <div class="wa-contact">
-            <p class="wa-contact-name">Marcela A.</p>
-            <p class="wa-contact-status">Córdoba · 50 años</p>
-          </div>
-        </div>
-        <div class="wa-body">
-          <div>
-            <div class="wa-bubble wa-out">Mar!!! hoy me pasó algo en la ofi jajaj</div>
-            <p class="wa-time wa-time-r">13:42</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-in">Que??</div>
-            <p class="wa-time">13:43</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-out">Saqué mi frasco al mediodía y tres compañeras vinieron a mirar. Una me dijo "eso parece de restaurante, ¿donde lo compraste?" jajaja</div>
-            <p class="wa-time wa-time-r">13:44</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-in">Jajajaja y que le dijiste</div>
-            <p class="wa-time">13:44</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-out">"Lo hice yo el domingo" se quedó helada 😂 dos me pidieron la receta</div>
-            <p class="wa-time wa-time-r">13:45</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- CHAT 4: HELADERA / FAMILIA -->
-      <div class="wa-chat fade-up">
-        <div class="wa-chat-header">
-          <div class="wa-avatar" style="background:#2471A3;padding:0;overflow:hidden;"><img src="assets/img/c.webp" alt="Patricia R." width="40" height="40" loading="lazy" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
-          <div class="wa-contact">
-            <p class="wa-contact-name">Patricia R.</p>
-            <p class="wa-contact-status">Mendoza · 55 años</p>
-          </div>
-        </div>
-        <div class="wa-body">
-          <div>
-            <div class="wa-bubble wa-out">El domingo hice 6 frascos. Hoy es jueves y están iguales que el domingo</div>
-            <p class="wa-time wa-time-r">12:08</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-in">Pero en serio??? Todo intacto?</div>
-            <p class="wa-time">12:09</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-out">Todo. La palta verde, la lechuga crujiente, el aderezo por abajo. Mis hijas no lo pueden creer</div>
-            <p class="wa-time wa-time-r">12:10</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-in">Eso de las capas funciona de verdad entonces</div>
-            <p class="wa-time">12:10</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-out">Funciona de verdad. Nunca más tiro una hoja de lechuga 🙌</div>
-            <p class="wa-time wa-time-r">12:11</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- CHAT 5: IA / LISTA DEL SUPER -->
-      <div class="wa-chat fade-up">
-        <div class="wa-chat-header">
-          <div class="wa-avatar" style="background:#117A65;">NP</div>
-          <div class="wa-contact">
-            <p class="wa-contact-name">Norma P.</p>
-            <p class="wa-contact-status">Tucumán · 47 años</p>
-          </div>
-        </div>
-        <div class="wa-body">
-          <div>
-            <div class="wa-bubble wa-out">Lo de la lista del súper es una maravilla te digo</div>
-            <p class="wa-time wa-time-r">20:31</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-in">A mí también me encantó eso</div>
-            <p class="wa-time">20:32</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-out">Puse las recetas que quería y me tiró la lista exacta. Fui al super, compré eso y NADA más. Primera vez que no tiro nada</div>
-            <p class="wa-time wa-time-r">20:33</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-in">Lo mejor es el ahorro también</div>
-            <p class="wa-time">20:33</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-out">Cero desperdicio. Primera vez en años que no tiro comida. Esto no lo puedo creer jaja</div>
-            <p class="wa-time wa-time-r">20:34</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- CHAT 6: TALLE M -->
-      <div class="wa-chat fade-up">
-        <div class="wa-chat-header">
-          <div class="wa-avatar" style="background:#7D3C98;">SV</div>
-          <div class="wa-contact">
-            <p class="wa-contact-name">Susana V.</p>
-            <p class="wa-contact-status">La Plata · 53 años</p>
-          </div>
-        </div>
-        <div class="wa-body">
-          <div>
-            <div class="wa-bubble wa-out">Suu no lo puedo creer!!!</div>
-            <p class="wa-time wa-time-r">18:55</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-in">Que???</div>
-            <p class="wa-time">18:55</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-out">Me probé el jean que tenía guardado hace DOS años. Me cerró!!! 😭😭</div>
-            <p class="wa-time wa-time-r">18:56</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-in">Para!!! Juro?? Pero hiciste alguna dieta?</div>
-            <p class="wa-time">18:56</p>
-          </div>
-          <div>
-            <div class="wa-bubble wa-out">Ninguna. Solo cambié los almuerzos con los frascos. No me privé de nada. Es inexplicable pero funciona</div>
-            <p class="wa-time wa-time-r">18:57</p>
-          </div>
-        </div>
-      </div>
-
+    <div class="dressings-closing">
+      <p>Sin aderezos buenos, ninguna ensalada se sostiene una semana en tu vida.</p>
+      <strong>Con estos, las vas a esperar.</strong>
     </div>
-    <p class="wa-disclaimer">Mensajes compartidos con autorización. Nombres editados por privacidad.</p>
   </div>
 </section>
 
-<!-- DELIVERABLES -->
-<section class="section">
+<!-- ============ VARIETY ============ -->
+<section class="variety-section">
   <div class="container">
-    <span class="tag">Todo lo que recibís</span>
-    <h2 class="headline" style="font-size: clamp(22px,5.5vw,34px); margin-bottom: 8px;">
-      Esto es todo lo que te llevas hoy al comprar.
-    </h2>
-    <p style="font-size:18px; color:var(--text-mid); margin-bottom:28px; line-height:1.65;">
-      No es solo un recetario. Es un sistema completo para resolver tu semana desde la heladera.
-    </p>
+    <h2>100 combinaciones para que comer sano no se vuelva una condena.</h2>
+    <p class="lead">No es la ensalada de lechuga y tomate de siempre. Es variedad real, sabor de verdad y una opción distinta para cada día, cada humor y cada objetivo.</p>
 
-    <div class="deliverable fade-up">
-      <img src="assets/img/10.webp" alt="Ensaladas en Frasco — El libro de recetas" class="deliverable-img" width="100" height="72" loading="lazy">
-      <div class="deliverable-body">
-        <h3>Ensaladas en Frasco — El E-book con 100 recetas</h3>
-        <p>100 combinaciones estratégicas organizadas por objetivo: ligeras, proteicas, vegetarianas, energéticas y gourmet. Diseñadas para no aburrirte nunca y para que cada frasco llegue al viernes igual que el domingo.</p>
-        <p class="deliverable-val">Valor: $22.900 ARS</p>
+    <div class="variety-cards">
+      <div class="variety-card">
+        <img src="assets/receta-01.webp" alt="Frasco ligero y fresco" class="variety-thumb-img">
+        <div class="variety-text">
+          <h4>Ligeras y frescas</h4>
+          <p>Para los días en que querés sentirte liviana.</p>
+        </div>
       </div>
-    </div>
-
-    <div class="deliverable fade-up">
-      <img src="assets/img/11.webp" alt="Protocolo de Capas y Conservación" class="deliverable-img" width="100" height="72" loading="lazy">
-      <div class="deliverable-body">
-        <h3>E-book Protocolo de Capas y Conservación</h3>
-        <p>La guía paso a paso para armar tus frascos correctamente. El orden exacto de cada ingrediente para que la lechuga no se marchite, la palta no se oxide y el aderezo no ablande nada. La ciencia detrás de los 7 días frescos.</p>
-        <p class="deliverable-val">Valor: $3.500 ARS</p>
+      <div class="variety-card">
+        <img src="assets/receta-21.webp" alt="Frasco proteico" class="variety-thumb-img">
+        <div class="variety-text">
+          <h4>Proteicas y rendidoras</h4>
+          <p>Saciedad real hasta la cena.</p>
+        </div>
       </div>
-    </div>
-
-    <div class="deliverable fade-up">
-      <img src="assets/img/12.webp" alt="Alquimia de Aderezos Saludables" class="deliverable-img" width="100" height="72" loading="lazy">
-      <div class="deliverable-body">
-        <h3>E-book Alquimia de Aderezos Saludables</h3>
-        <p>Las fórmulas de los aderezos que hacen que tus compañeras te pidan la receta y tu marido deje el delivery. Salsas caseras que transforman ingredientes simples en platos que parecen de restaurante.</p>
-        <p class="deliverable-val">Valor: $6.500 ARS</p>
+      <div class="variety-card">
+        <img src="assets/receta-45.webp" alt="Frasco vegetariano" class="variety-thumb-img">
+        <div class="variety-text">
+          <h4>Vegetarianas inteligentes</h4>
+          <p>Variadas, sin repetir nunca.</p>
+        </div>
       </div>
-    </div>
-
-    <div class="deliverable fade-up" style="border-left-color: var(--gold);">
-      <img src="assets/img/13.webp" alt="Planificador de Compras con IA" class="deliverable-img" width="100" height="72" loading="lazy">
-      <div class="deliverable-body">
-        <h3>Planificador de Compras con IA ⭐ El diferencial</h3>
-        <p>Escribís los números de las recetas que querés hacer. La IA te devuelve la lista exacta del supermercado, con cantidades consolidadas y sin cuentas. Llegás al súper, comprás solo lo que necesitás y nada más.</p>
-        <p style="font-style:italic; font-size:13px; color:var(--gold); margin-top:6px; font-weight:600;">"La primera vez que hice la lista con la IA no tiré ni una hoja de lechuga."</p>
-        <p class="deliverable-val" style="color:var(--gold);">Valor: $14.500 ARS</p>
+      <div class="variety-card">
+        <img src="assets/receta-68.webp" alt="Frasco energético" class="variety-thumb-img">
+        <div class="variety-text">
+          <h4>Energéticas y completas</h4>
+          <p>Para los días intensos.</p>
+        </div>
       </div>
-    </div>
-
-    <div class="hero-cta-wrap" style="max-width:400px; margin: 32px auto 0;">
-      <a href="https://puntoycomastore.com/checkouts/cn/hWNAELe1U2VeOsIy9JkHrHzF/" class="btn">
-        Ver todo + comprarlo ahora →
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- BONUSES -->
-<section class="section section-alt" id="entregables">
-  <div class="container">
-    <span class="tag tag-gold">Bonos exclusivos</span>
-    <h2 class="headline" style="font-size: clamp(22px,5.5vw,34px); margin-bottom:8px;">
-      Además, hoy te llevás estos 3 bonos sin costo extra.<br><br>
-    </h2>
-   
-
-    <div class="bonus fade-up">
-      <span class="bonus-badge">Bono #1</span>
-      <img src="assets/img/b1.webp" alt="Reset de la Primera Semana — Smoothies y Detox" class="bonus-img" width="320" height="150" loading="lazy">
-      <p class="bonus-obj">Para las que quieren ver resultados rápido</p>
-      <h3>Reset de la Primera Semana — Smoothies y Detox</h3>
-      <p>Si la primera semana necesitás sentirte deshinchada y con más energía para no abandonar — esto es para vos. Combinaciones de arranque que generan resultados visibles rápido y te dan el impulso para sostener el hábito.</p>
-    </div>
-
-    <div class="bonus fade-up">
-      <span class="bonus-badge">Bono #2</span>
-      <img src="assets/img/b2.webp" alt="Escudo de Mañanas — Shots de 30 segundos" class="bonus-img" width="320" height="150" loading="lazy">
-      <p class="bonus-obj">Para las que dicen "llego tarde y no tengo tiempo de nada"</p>
-      <h3>Escudo de Mañanas — Shots de 30 segundos</h3>
-      <p>Preparaciones rápidas para las mañanas en que llegás tarde y no podés hacer nada complejo. Sin excusas para saltear el arranque del día con energía.</p>
-    </div>
-
-    <div class="bonus fade-up">
-      <span class="bonus-badge">Bono #3</span>
-      <img src="assets/img/b3.webp" alt="Hidratación Saborizada — La transición sin ansiedad" class="bonus-img" width="320" height="150" loading="lazy">
-      <p class="bonus-obj">Para las que terminan en la gaseosa o el jugo azucarado</p>
-      <h3>Hidratación Saborizada — La transición sin ansiedad</h3>
-      <p>Cómo dejar de tomar bebidas azucaradas sin que se sienta como un sacrificio. Ideas simples para tomar más agua con sabor real, sin edulcorantes industriales.</p>
-    </div>
-  </div>
-</section>
-
-<!-- PRICE -->
-<section class="section" id="compra">
-  <div class="container">
-    <span class="tag">Oferta de lanzamiento</span>
-    <h2 class="headline" style="font-size: clamp(22px,5.5vw,34px); margin-bottom: 8px;">
-      Todo el sistema completo por un único pago y por menos de lo que te cuesta un delivery.
-    </h2>
-
-    <div class="price-stack fade-up">
-      <p class="price-stack-header">Si compraras todo por separado:</p>
-      <div class="price-stack-body">
-        <div class="price-row"><span class="name">📗 Libro de recetas (100 combinaciones)</span><span class="val">$22.900</span></div>
-        <div class="price-row"><span class="name">🫙 Protocolo de Capas y Conservación</span><span class="val">$3.500</span></div>
-        <div class="price-row"><span class="name">🧪 Alquimia de Aderezos</span><span class="val">$6.500</span></div>
-        <div class="price-row"><span class="name">🤖 Planificador con IA</span><span class="val">$14.500</span></div>
-        <div class="price-row"><span class="name">🎁 3 Bonos exclusivos</span><span class="val">$12.600</span></div>
-      </div>
-      <div class="price-row-total">
-        <span class="name">Valor total del sistema</span>
-        <span class="val">$60.000</span>
-      </div>
-    </div>
-
-    <div class="price-box fade-up" id="seccion-compra">
-      <p class="price-eyebrow">Precio de lanzamiento — hoy</p>
-      <p class="price-old">$60.000 ARS</p>
-      <p class="price-main"><span class="price-ars">$</span>14.990</p>
-      <p class="price-note">PESOS ARGENTINOS en Un único pago · Acceso inmediato</p>
-      <div class="price-off-badge">🔥 75% de descuento</div>
-      <div class="price-urgency">
-        <span class="urgency-dot"></span>
-        Precio de lanzamiento: cuando termine esta etapa, vuelve a $60.000
-      </div>
-      <a href="https://puntoycomastore.com/checkouts/cn/hWNAELe1U2VeOsIy9JkHrHzF/" class="btn btn-lg">
-        🛒 SÍ, QUIERO TODO POR $14.990
-      </a>
-      <p class="btn-sub" style="color: rgba(255,255,255,.65);">Acceso inmediato · Pago seguro · Garantía 7 días</p>
-    </div>
-
-    <p class="mp-note"><img src="assets/img/logo-mp.webp" alt="Mercado Pago" class="mp-logo" width="80" height="22" loading="lazy"> Pagá 100% seguro con Mercado Pago</p>
-  </div>
-</section>
-
-<!-- GUARANTEE -->
-<section class="section section-alt">
-  <div class="container">
-    <div class="guarantee-box fade-up">
-      <img src="assets/img/sello.webp" alt="100% Satisfacción Garantizada" class="sello-img" width="110" height="110" loading="lazy">
-      <h3>Garantía de 7 días — sin preguntas</h3>
-      <p>
-        Entrá, explorá las recetas, probá el Protocolo de Capas y usá el planificador con IA.
-        Si dentro de los primeros 7 días sentís que este sistema no es para vos,
-        <strong>pedís el reembolso y te devolvemos el 100% del dinero.</strong><br><br>
-        No te pedimos explicaciones. El riesgo no corre por tu cuenta.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- FAQ -->
-<section class="section">
-  <div class="container">
-    <span class="tag">Preguntas frecuentes</span>
-    <h2 class="headline" style="font-size: clamp(32px,5vw,32px); margin-bottom: 28px;">
-      Lo que probablemente querés saber antes de comprar.
-    </h2>
-
-    <div class="faq-item open">
-      <button class="faq-q">
-        <span class="faq-q-txt">¿Necesito saber cocinar?</span>
-        <span class="faq-icon">▾</span>
-      </button>
-      <div class="faq-a">
-        No. Si sabés picar, mezclar y poner cosas en un frasco, podés hacerlo. Las recetas están pensadas para personas con rutinas ocupadas, no para cocineras. <strong>No requiere habilidad culinaria, requiere un sistema.</strong>
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-q">
-        <span class="faq-q-txt">¿Las ensaladas aguantan de verdad 7 días?</span>
-        <span class="faq-icon">▾</span>
-      </button>
-      <div class="faq-a">
-        Siguiendo el Protocolo de Capas, sí. El secreto es la separación estratégica de ingredientes: el aderezo va en el fondo, las hojas encima. Eso evita el contacto con la humedad. <strong>La física, no la suerte.</strong> Muchas combinaciones duran 5-7 días impecables.
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-q">
-        <span class="faq-q-txt">¿Necesito frascos especiales?</span>
-        <span class="faq-icon">▾</span>
-      </button>
-      <div class="faq-a">
-        Lo ideal son frascos de vidrio con tapa hermética, que conservan mejor la temperatura y el sabor. Pero podés arrancar con lo que tenés. En el método vas a entender por qué el vidrio funciona mejor y cómo conseguirlos sin gastar fortunas.
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-q">
-        <span class="faq-q-txt">¿La IA es difícil de usar?</span>
-        <span class="faq-icon">▾</span>
-      </button>
-      <div class="faq-a">
-        Para nada. Es tan simple como escribirle: "Quiero hacer la receta 4, la 15 y dos veces la 30." Y ella te devuelve la lista exacta del supermercado. <strong>Si podés mandar un mensaje de WhatsApp, podés usarla.</strong>
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-q">
-        <span class="faq-q-txt">¿Cuánto tiempo me lleva realmente?</span>
-        <span class="faq-icon">▾</span>
-      </button>
-      <div class="faq-a">
-        La mayoría de las mujeres que usan el método dedican <strong>entre 60 y 90 minutos el domingo</strong> para dejar toda la semana resuelta. Al principio puede llevar un poco más mientras aprendés el Protocolo. A partir de la segunda semana, ya fluye solo.
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-q">
-        <span class="faq-q-txt">¿Sirve si vivo sola?</span>
-        <span class="faq-icon">▾</span>
-      </button>
-      <div class="faq-a">
-        Especialmente para vos. La IA te arma la lista exacta para evitar comprar de más, que es el error más común cuando cocinás para una sola persona. <strong>Cero desperdicio, cero heladera llena de cosas que no usás.</strong>
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-q">
-        <span class="faq-q-txt">¿Puedo hacer esto para vender y ganar plata extra? 💰</span>
-        <span class="faq-icon">▾</span>
-      </button>
-      <div class="faq-a">
-        Sí. Muchas compradoras usan el método para vender frascos en su barrio, trabajo o por WhatsApp y generar ingresos extra. <strong>Las recetas son tuyas para hacer lo que quieras con ellas.</strong>
-        <div class="faq-highlight">
-          💡 Una ensalada en frasco bien presentada puede venderse entre $3.500 y $7.000 el frasco en Argentina hoy, dependiendo del tamaño y los ingredientes. Con 10 frascos semanales ya estás generando un ingreso real con una inversión mínima.
+      <div class="variety-card">
+        <img src="assets/receta-84.webp" alt="Frasco gourmet" class="variety-thumb-img">
+        <div class="variety-text">
+          <h4>Gourmet sin culpa</h4>
+          <p>Con aderezos que parecen de restaurante.</p>
         </div>
       </div>
     </div>
 
-    <div class="faq-item">
-      <button class="faq-q">
-        <span class="faq-q-txt">¿Cómo recibo el material?</span>
-        <span class="faq-icon">▾</span>
-      </button>
-      <div class="faq-a">
-        Al confirmar el pago, recibís acceso inmediato por email. Todo disponible para descargar al instante: el libro de recetas, la guía de capas, los aderezos, el acceso al planificador con IA y los 3 bonos. <strong>Sin esperas, sin burocracia.</strong>
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <button class="faq-q">
-        <span class="faq-q-txt">¿Qué pasa si no me gusta?</span>
-        <span class="faq-icon">▾</span>
-      </button>
-      <div class="faq-a">
-        Tenés 7 días de garantía incondicional. Si por cualquier motivo sentís que no es para vos, pedís el reembolso y te devolvemos el 100% del dinero. Sin preguntas, sin demoras.
-      </div>
-    </div>
+    <p class="variety-numbers"><strong>100</strong> combinaciones · <strong>5</strong> categorías · <em>+30 aderezos caseros</em><br>Una para cada día, cada humor y cada plato.</p>
   </div>
 </section>
 
-<!-- IA DEMO -->
-<section class="section">
+<!-- ============ COMPARISON ============ -->
+<section class="comparison-section">
   <div class="container">
-    <span class="tag naranja">Y SI FUERA POCO: BONO GRATUITO</span>
-    <span class="tag"> Un Planificador con IA: que te ayuda con la parte que más tiempo te ahorra</span>
-    <h2 class="headline" style="font-size: clamp(22px,5.5vw,34px); margin-bottom: 8px;">
-      Si lo querés usar, tu lista del súper se genera <em class="headline-italic">sola.</em>
-    </h2>
-    <p style="font-size:18px; color:var(--text-mid); margin-bottom:0; line-height:1.65;">
-      No más noches calculando cantidades, comprando de más ni tirando comida porque compraste mal.
-    </p>
+    <h2>Elegís cuál de estas dos historias es la tuya.</h2>
 
-    <div class="ia-card fade-up">
-      <p class="ia-card-title">Así funciona el <span>Planificador con IA</span>:</p>
-
-      <div class="ia-input">
-        <p class="ia-label">Vos escribís:</p>
-        <p class="ia-text">"Quiero hacer la receta 4, la 15 y dos veces la 30"</p>
-      </div>
-
-      <div class="ia-arrow">⬇️</div>
-
-      <div class="ia-output">
-        <p class="ia-output-label">La IA te devuelve tu lista exacta:</p>
-        <ul class="ia-list">
-          <li>2 pepinos</li>
-          <li>1 kg de zanahoria</li>
-          <li>3 tomates</li>
-          <li>1 atado de rúcula</li>
-          <li>250 g de queso</li>
-          <li>2 latas de garbanzos</li>
-          <li>1 frasco de mostaza</li>
-          <li>6 limones</li>
-        </ul>
-      </div>
-
-      <p class="ia-footer">
-        <strong>Sin matemáticas. Sin confusiones. Sin terminar tirando comida.</strong><br>
-        Llegás al súper, comprás exactamente eso y nada más.
-      </p>
-    </div>
-
-    <div class="hero-cta-wrap" style="max-width:400px; margin:0 auto;">
-      <a href="https://puntoycomastore.com/checkouts/cn/hWNAELe1U2VeOsIy9JkHrHzF/" class="btn">
-        Quiero la IA + las 100 recetas →
-      </a>
-    </div>
-  </div>
-</section>
-
-<!-- CLOSING A/B -->
-<section class="section section-dark">
-  <div class="container" style="text-align:center;">
-    <span class="tag tag-white">En una semana, tu heladera puede verse muy distinta</span>
-    <h2 class="headline" style="font-size: clamp(22px,5.5vw,34px); color: var(--white); margin-bottom: 28px;">
-      Elegís cuál de estas dos historias es la tuya.
-    </h2>
-
-    <div class="closing-grid">
-      <div class="closing-card closing-a">
-        <p class="closing-label">Sin el método</p>
+    <div class="comparison-grid">
+      <div class="comparison-col bad">
+        <h3>Sin el método</h3>
         <ul>
-          <li>Verduras marchitas a fin de semana</li>
-          <li>Delivery que vacía la billetera</li>
+          <li>Verduras marchitas el viernes</li>
+          <li>Delivery que te vacía la billetera</li>
           <li>La pregunta de las 8 de la noche</li>
           <li>Ensaladas que duran 2 días</li>
-          <li>$200.000 al mes que se van</li>
+          <li>$200.000 al mes que se evaporan</li>
+          <li>"¿Qué cocino mañana?"</li>
         </ul>
       </div>
-      <div class="closing-card closing-b">
-        <p class="closing-label">Con el método</p>
+      <div class="comparison-col good">
+        <h3>Con el método</h3>
         <ul>
           <li>Heladera llena del lunes al viernes</li>
-          <li>Ahorro real en pesos argentinos</li>
+          <li>Ahorro real, en pesos argentinos</li>
           <li>La semana resuelta el domingo</li>
           <li>Frascos frescos por 7 días</li>
+          <li>Plata que vuelve a tu cuenta</li>
           <li>Tu marido pidiéndote el frasco</li>
         </ul>
       </div>
     </div>
 
-    <p style="font-size:17px; font-weight:600; color:rgba(255,255,255,.85); line-height:1.7; margin-bottom:28px;">
-      La diferencia entre estos dos escenarios no es la voluntad.<br>
-      <strong style="color:var(--white); font-weight:900;">Es el sistema.</strong>
-    </p>
+    <div class="comparison-closing">
+      <p>La diferencia entre estos dos escenarios no es la voluntad.</p>
+      <strong>Es el sistema.</strong>
+    </div>
 
-    <div style="max-width:400px; margin:0 auto;">
-      <a href="https://puntoycomastore.com/checkouts/cn/hWNAELe1U2VeOsIy9JkHrHzF/" class="btn btn-lg">
-        🛒 QUIERO EMPEZAR HOY — $14.990
-      </a>
-      <p class="btn-sub" style="color: rgba(255,255,255,.5);">Acceso inmediato · Garantía 7 días · Pago seguro</p>
+    <a href="https://puntoycomastore.com/checkouts/cn/hWNAELe1U2VeOsIy9JkHrHzF/" class="cta-primary" onclick="fbq('track', 'InitiateCheckout');">🛒 QUIERO LA HISTORIA CON EL MÉTODO — $14.990</a>
+    <p class="cta-microcopy">Acceso inmediato · Pago seguro · Garantía 7 días</p>
+  </div>
+</section>
+
+<!-- ============ STACK / WHAT YOU GET ============ -->
+<section class="stack-section">
+  <div class="container">
+    <h2>Esto es todo lo que te llevás hoy.</h2>
+    <p class="lead">No es un recetario. Es un sistema completo para resolver tu semana desde la heladera.</p>
+
+    <div class="stack-card">
+      <img src="assets/10.webp" alt="Libro Ensaladas en Frasco" class="stack-card-image">
+      <h3>📗 Ensaladas en Frasco — El libro con 100 recetas</h3>
+      <p>100 combinaciones organizadas por objetivo: ligeras, proteicas, vegetarianas, energéticas y gourmet. Diseñadas para no aburrirte nunca y para que cada frasco llegue al viernes igual que el domingo.</p>
+    </div>
+
+    <div class="stack-card">
+      <img src="assets/12.webp" alt="Libro Alquimia de Aderezos" class="stack-card-image">
+      <span class="featured-tag">★ El secreto del método</span>
+      <h3>🧪 Alquimia de Aderezos Caseros</h3>
+      <p>Más de 30 aderezos que transforman cualquier ensalada en un plato que se siente de restaurante. Verdes, cremosos, cítricos, picantes, dulces. Las fórmulas que hacen que tu marido te pida el frasco y que tus compañeras se queden mirando lo que estás comiendo.</p>
+      <div class="quote">Sin estos aderezos, ninguna dieta de ensaladas dura más de una semana. Con estos, no querés que termine.</div>
+    </div>
+
+    <div class="stack-card">
+      <img src="assets/11.webp" alt="Guía Protocolo de Capas" class="stack-card-image">
+      <h3>🫙 Protocolo de Capas y Conservación</h3>
+      <p>La guía paso a paso del orden exacto de cada ingrediente. La física que hace que la lechuga no se marchite, la palta no se oxide y el aderezo no ablande nada. La ciencia detrás de los 7 días frescos.</p>
     </div>
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="footer">
+<!-- ============ BONUSES ============ -->
+<section class="bonuses-section">
   <div class="container">
-    <p>© 2026 Ensaladas en Frasco. Todos los derechos reservados.</p>
-    <p style="margin-top:8px;">
-      <a href="#">Términos y Condiciones</a> &nbsp;·&nbsp;
-      <a href="#">Política de Privacidad</a> &nbsp;·&nbsp;
-      <a href="mailto:puntoycoma.fq@gmail.com">Contacto</a>
-    </p>
-    <p style="margin-top:12px; font-size:11px; color:rgba(255,255,255,.3);">
-      Los testimonios son experiencias individuales. Los resultados pueden variar.
-    </p>
+    <h2>Y como regalo de bienvenida, también te llevás:</h2>
+
+    <div class="bonus-card">
+      <img src="assets/b1.webp" alt="Tapa Bono #1 Reset Primera Semana" class="bonus-cover-img">
+      <div class="bonus-content">
+        <span class="bonus-tag">🎁 BONO #1</span>
+        <h4>Reset de la Primera Semana</h4>
+        <p>Smoothies y combinaciones de arranque para sentirte deshinchada y con energía desde el día uno. Para que la primera semana te dé el impulso que necesitás para sostener el hábito.</p>
+      </div>
+    </div>
+
+    <div class="bonus-card">
+      <img src="assets/b2.webp" alt="Tapa Bono #2 Escudo de Mañanas" class="bonus-cover-img">
+      <div class="bonus-content">
+        <span class="bonus-tag">🎁 BONO #2</span>
+        <h4>Escudo de Mañanas</h4>
+        <p>Preparaciones de 30 segundos para los días en que llegás tarde y no podés hacer nada complejo. Sin excusas para arrancar el día con energía.</p>
+      </div>
+    </div>
+
+    <div class="bonus-card">
+      <img src="assets/b3.webp" alt="Tapa Bono #3 Hidratación Saborizada" class="bonus-cover-img">
+      <div class="bonus-content">
+        <span class="bonus-tag">🎁 BONO #3</span>
+        <h4>Hidratación Saborizada</h4>
+        <p>Cómo dejar las bebidas azucaradas sin que se sienta un sacrificio. Aguas saborizadas con ingredientes naturales, sin edulcorantes industriales.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OFFER & PRICE ============ -->
+<section class="offer-section">
+  <div class="container">
+    <h2>Todo el sistema completo por menos de lo que te cuestan <em>dos pedidos de delivery.</em></h2>
+
+    <div class="value-table">
+      <div class="value-row">
+        <span class="name">📗 Libro de recetas (100 combinaciones)</span>
+        <span class="price">$19.990</span>
+      </div>
+      <div class="value-row">
+        <span class="name">🧪 Alquimia de Aderezos Caseros</span>
+        <span class="price">$9.990</span>
+      </div>
+      <div class="value-row">
+        <span class="name">🫙 Protocolo de Capas y Conservación</span>
+        <span class="price">$5.990</span>
+      </div>
+      <div class="value-row">
+        <span class="name">🎁 Bono #1 — Reset Primera Semana</span>
+        <span class="price">$4.990</span>
+      </div>
+      <div class="value-row">
+        <span class="name">🎁 Bono #2 — Escudo de Mañanas</span>
+        <span class="price">$4.990</span>
+      </div>
+      <div class="value-row">
+        <span class="name">🎁 Bono #3 — Hidratación Saborizada</span>
+        <span class="price">$4.050</span>
+      </div>
+      <div class="value-total">
+        <span class="label">Valor total del sistema</span>
+        <span class="total">$50.000</span>
+      </div>
+    </div>
+
+    <div class="price-box">
+      <div class="label">Hoy, precio de lanzamiento</div>
+      <div class="price-was">$50.000</div>
+      <div class="price-now">$14.990</div>
+      <div class="price-currency">PESOS ARGENTINOS · Pago único · Acceso inmediato</div>
+      <div class="price-discount-badge">🔥 70% DE DESCUENTO</div>
+    </div>
+
+    <a href="https://puntoycomastore.com/checkouts/cn/hWNAELe1U2VeOsIy9JkHrHzF/" class="cta-primary" onclick="fbq('track', 'InitiateCheckout');">🛒 SÍ, QUIERO TODO POR $14.990</a>
+    <div class="payment-icons">
+      <span>💳 Mercado Pago</span>
+      <span>·</span>
+      <span>🔒 Pago 100% seguro</span>
+      <span>·</span>
+      <span>📲 Acceso inmediato</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GUARANTEE ============ -->
+<section class="guarantee-section">
+  <div class="container">
+    <h2>Garantía de 7 días — sin preguntas, sin vueltas.</h2>
+
+    <img src="assets/sello.png" alt="Sello de garantía 7 días" class="guarantee-badge-img">
+
+    <p class="guarantee-text">Comprá hoy. Entrá al material. Probá una receta. Armá un frasco con el Protocolo de Capas. Si dentro de los primeros 7 días sentís que esto no es para vos, pedís el reembolso y te devolvemos el 100% del dinero.<strong>El riesgo no corre por tu cuenta.</strong></p>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about-section">
+  <div class="container">
+    <h2>Detrás del método</h2>
+
+    <img src="assets/cara-modelo.webp" alt="Creadora del método" class="about-image">
+
+    <div class="about-text">
+      <p>Soy una mujer argentina, tengo más de 45 años y trabajo todo el día. Como vos, durante años intenté comer mejor y siempre fallaba en lo mismo: la logística. Compraba con buena intención y tiraba la mitad. Pedía delivery por agotamiento. Vivía con culpa.</p>
+      <p>Hasta que dejé de buscar más fuerza de voluntad y empecé a buscar un sistema.</p>
+      <p><strong>Este método es lo que me funcionó a mí y lo que ahora le funciona a más de 350 mujeres argentinas. No es una promesa. Es una rutina probada.</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq-section">
+  <div class="container">
+    <h2>Lo que probablemente querés saber antes de comprar</h2>
+
+    <details class="faq-item">
+      <summary class="faq-question">¿Necesito saber cocinar?</summary>
+      <div class="faq-answer">No. Si sabés picar, mezclar y poner cosas en un frasco, podés hacerlo. Las recetas están pensadas para mujeres con rutinas ocupadas, no para cocineras profesionales.</div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">¿Las ensaladas aguantan de verdad 7 días?</summary>
+      <div class="faq-answer">Siguiendo el Protocolo de Capas, sí. El secreto es la separación estratégica: aderezo abajo, hojas arriba, vegetales firmes en el medio. Eso evita el contacto con la humedad. <strong>La mayoría de las combinaciones duran entre 5 y 7 días impecables.</strong></div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">¿Necesito frascos especiales?</summary>
+      <div class="faq-answer">Lo ideal son frascos de vidrio con tapa hermética. Pero podés arrancar con los que ya tenés en casa. En el método te explico por qué el vidrio funciona mejor y cómo conseguirlos sin gastar de más.</div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">¿Cuánto tiempo me lleva realmente?</summary>
+      <div class="faq-answer">Las mujeres que usan el método dedican <strong>entre 60 y 90 minutos el domingo</strong> y dejan toda la semana resuelta. Las primeras dos veces puede llevar un poco más mientras aprendés. A partir de la tercera semana, fluye solo.</div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">¿Sirve si vivo sola?</summary>
+      <div class="faq-answer">Especialmente para vos. El método te ayuda a comprar las cantidades exactas, que es el error más común cuando cocinás para una sola persona. <strong>Cero desperdicio, cero heladera llena de cosas que no usás.</strong></div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">¿Cómo recibo el material?</summary>
+      <div class="faq-answer">Al confirmar el pago, recibís acceso inmediato por email. Todo disponible para descargar al instante: el libro, la guía de capas, los aderezos y los 3 bonos. <strong>Sin esperas, sin burocracia.</strong></div>
+    </details>
+
+    <details class="faq-item">
+      <summary class="faq-question">¿Y si no me gusta?</summary>
+      <div class="faq-answer">Tenés 7 días de garantía total. Si por cualquier motivo sentís que no es para vos, escribís al email de contacto, pedís el reembolso y te devolvemos el 100%. Sin preguntas.</div>
+    </details>
+  </div>
+</section>
+
+<!-- ============ BONUS SURPRISE ============ -->
+<section class="surprise-section">
+  <div class="container">
+    <span class="surprise-eyebrow">✨ Y todavía hay un regalo más</span>
+    <h2>Una sorpresa adicional que no contamos en ningún lado.</h2>
+
+    <div class="surprise-text">
+      <p>Cuando confirmás tu compra, también te llegan las instrucciones para acceder a una herramienta extra que armamos para vos: una asistente que te ayuda a hacer la lista del supermercado a partir de las recetas que elegís.</p>
+      <p>Le decís qué recetas vas a hacer esta semana, ella te devuelve la lista exacta del súper, sin que tengas que sumar nada. Una ayudita más para que tu domingo te lleve 60 minutos y no 90.</p>
+    </div>
+
+    <div class="surprise-card">
+      <p>No es lo que te trae al método. Es lo que te facilita la vida una vez que estás adentro.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FINAL EMOTIONAL CTA ============ -->
+<section class="final-section">
+  <div class="container">
+    <h2>En una semana, tu heladera puede verse muy distinta.</h2>
+
+    <div class="final-text">
+      <p>El domingo a la noche, después de 60 minutos de trabajo, vas a cerrar la puerta de tu heladera y verla llena de frascos coloridos, listos para los próximos 5 días.</p>
+      <p>El lunes a las 12 vas a abrir uno y comer mejor que en cualquier restaurante de tu barrio — porque los aderezos lo hacen mejor que en cualquier restaurante de tu barrio. El martes lo mismo. El miércoles también. Y el viernes, cuando saques el último, va a estar tan fresco como el domingo.</p>
+      <p><strong>No es promesa. Es lo que ya viven 350 mujeres argentinas. Y puede arrancar hoy.</strong></p>
+    </div>
+
+    <div class="final-cta-wrap">
+      <a href="https://puntoycomastore.com/checkouts/cn/hWNAELe1U2VeOsIy9JkHrHzF/" class="cta-primary" onclick="fbq('track', 'InitiateCheckout');">🛒 EMPIEZO HOY — $14.990 ARS</a>
+      <p class="cta-microcopy">Acceso inmediato · Garantía 7 días · Pago seguro con Mercado Pago</p>
+
+      <div class="final-timer">🔥 Precio de lanzamiento termina en <strong id="timer-final">--:--:--</strong></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <p>© 2026 Ensaladas en Frasco · Todos los derechos reservados</p>
+    <p><a href="#">Términos y Condiciones</a> · <a href="#">Política de Privacidad</a> · <a href="mailto:puntoycoma.fq@gmail.com">Contacto</a></p>
+    <p style="margin-top:14px; font-size:11px; opacity:0.6;">Los testimonios y resultados son experiencias individuales. Los resultados pueden variar.</p>
   </div>
 </footer>
 
-<!-- STICKY MOBILE BAR -->
-<div class="sticky-bar">
-  <a href="https://puntoycomastore.com/checkouts/cn/hWNAELe1U2VeOsIy9JkHrHzF/">
-    🛒 COMPRÁ AHORA — $14.990 ARS
-  </a>
+<!-- ============ STICKY MOBILE CTA ============ -->
+<div class="sticky-cta">
+  <a href="https://puntoycomastore.com/checkouts/cn/hWNAELe1U2VeOsIy9JkHrHzF/" class="sticky-cta-btn" onclick="fbq('track', 'InitiateCheckout');">🛒 COMPRAR — $14.990</a>
+  <div class="sticky-cta-timer">
+    Termina en
+    <span id="timer-mobile">--:--:--</span>
+  </div>
 </div>
 
+<!-- ============ TIMER SCRIPT ============ -->
 <script>
-  // SCROLL FADE ANIMATIONS
-  const fadeEls = document.querySelectorAll('.fade-up');
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(el => {
-      if (el.isIntersecting) { el.target.classList.add('visible'); }
-    });
-  }, { threshold: 0.12 });
-  fadeEls.forEach(el => observer.observe(el));
+(function() {
+  // Timer real con renovación semanal: termina cada domingo a las 23:59:59 hora Argentina
+  // Si hoy es domingo y ya pasaron las 23:59, apunta al domingo siguiente
+  function getTargetDate() {
+    var now = new Date();
+    var argOffset = -3 * 60; // Argentina UTC-3 en minutos
+    var localOffset = now.getTimezoneOffset();
+    var argNow = new Date(now.getTime() + (localOffset - argOffset) * 60000);
 
-  // FAQ ACCORDION
-  document.querySelectorAll('.faq-q').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const item = btn.parentElement;
-      const isOpen = item.classList.contains('open');
-      document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
-      if (!isOpen) item.classList.add('open');
-    });
-  });
+    var dayOfWeek = argNow.getDay(); // 0 = domingo, 1 = lunes, ..., 6 = sábado
+    var daysUntilSunday = (7 - dayOfWeek) % 7;
 
-  // STICKY BAR SHOW/HIDE
-  const stickyBar = document.querySelector('.sticky-bar');
-  const heroBtn = document.querySelector('.hero-cta-wrap');
-  window.addEventListener('scroll', () => {
-    if (!heroBtn) return;
-    const rect = heroBtn.getBoundingClientRect();
-    if (rect.bottom < 0) {
-      stickyBar.style.display = 'block';
-    } else {
-      stickyBar.style.display = 'none';
+    // Si es domingo, ver si ya pasó la hora de cierre
+    if (dayOfWeek === 0) {
+      if (argNow.getHours() >= 23 && argNow.getMinutes() >= 59) {
+        daysUntilSunday = 7;
+      } else {
+        daysUntilSunday = 0;
+      }
     }
-  }, { passive: true });
+
+    var target = new Date(argNow);
+    target.setDate(target.getDate() + daysUntilSunday);
+    target.setHours(23, 59, 59, 999);
+
+    // Convertir de vuelta a hora local
+    target = new Date(target.getTime() - (localOffset - argOffset) * 60000);
+    return target;
+  }
+
+  var targetDate = getTargetDate();
+
+  function pad(n) { return n < 10 ? '0' + n : n; }
+
+  function updateTimer() {
+    var now = new Date();
+    var diff = targetDate - now;
+
+    if (diff <= 0) {
+      // Renovar para el próximo domingo
+      targetDate = getTargetDate();
+      diff = targetDate - now;
+    }
+
+    var totalHours = Math.floor(diff / (1000 * 60 * 60));
+    var minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+    var formatted = pad(totalHours) + ':' + pad(minutes) + ':' + pad(seconds);
+
+    var t1 = document.getElementById('timer');
+    var t2 = document.getElementById('timer-final');
+    var t3 = document.getElementById('timer-mobile');
+    if (t1) t1.textContent = formatted;
+    if (t2) t2.textContent = formatted;
+    if (t3) t3.textContent = formatted;
+  }
+
+  updateTimer();
+  setInterval(updateTimer, 1000);
+})();
 </script>
+
 </body>
 </html>
